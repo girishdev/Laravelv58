@@ -2,7 +2,7 @@ Fifth week plan:
 
 1. Finish all Laravel Review:
     - Install Laravel Version
-        For Eg:- Laravelv6, Laravelv7 and etc... 
+        For Eg:- Laravelv6, Laravelv7 and etc...
     - For Each Features add ToDo Comment Provided by PHPStorm
     - Time is very precious so make use of Focus TODO"
     - If Possible On Concept Describing add(Images/Videos), In QandA Section Or in comfortable page
@@ -16,9 +16,13 @@ Fifth week plan:
 4. Finish Advance Concept Listed with examples:
     1. Laravel Even //
     2. Laravel Listener //
-    3. Laravel Queue
+    3. Laravel Queue (Supervisor and Its Configuration) // .....
     4. Laravel Middleware //
     5. Laravel Sending Notification and Emails
+        All About "Sending Notification"
+            https://www.youtube.com/watch?v=gtMXs9a1e0Y
+            https://www.youtube.com/watch?v=upKOwoe8LsM
+            https://www.youtube.com/watch?v=5DREuAvFnps
 
     6. Laravel Policy
     7. Laravel Jobs
@@ -45,7 +49,20 @@ Fifth week plan:
     1. Questiion and Answers Related to this Advance Topics
     2. Key Points about this Advance Topics
     3. Examples On Each Advance Topics
-    4. Other Missing Topics we can add it here(Task Scheduling, Collections, and etc....)
+    5. What is the Use Of creating "Artisan Commands", "Policy" and etc...
+    6. Commands On Each Concepts
+    7. standard Laravel naming conventions => I am adding this "ImportantScreenshot" into GDrive Laravel Folder
+        ***https://webdevetc.com/blog/laravel-naming-conventions/ => [webdevetcNamingConventions] //
+        ***https://webdevetc.com/blog/laravel-features-you-may-not-know-about => [webdevetcLaravelFeatures] //
+        ***https://xqsit.github.io/laravel-coding-guidelines/docs/naming-conventions/ => [xqsitNamingConventions] //
+        ***https://github.com/alexeymezenin/laravel-best-practices#fat-models-skinny-controllers => [alexeymezeninBestPractices] //
+        ***https://www.mindtwo.de/guidelines/coding/laravel#use-shorter-and-more-readable-syntax-where-possible => [mindtwoUseShorter] //
+        ***https://devdojo.com/alpdetails/laravel-best-practice-coding-standards-part-01#toc-01-03-06-primary-key => [devdojoBestPractice] //
+
+    8. Other Missing Topics we can add it here(Task Scheduling, Collections, and etc....)
+
+Very Important Link:
+    https://laravel-guide.readthedocs.io/en/latest/middleware/
 
 5. Laravel Paper Work:
     DB::Query

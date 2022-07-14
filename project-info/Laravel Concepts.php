@@ -12,7 +12,7 @@ Architecture Concepts
 
                 use App\Services\Transistor;
                 use App\Services\PodcastParser;
-                 
+
                 $this->app->bind(Transistor::class, function ($app) {
                     return new Transistor($app->make(PodcastParser::class));
                 });
@@ -68,13 +68,13 @@ Architecture Concepts
             Basic Routing (Laravelv5.8)
                 --------- Basic Routing ---------
                 use Illuminate\Support\Facades\Route;
-                 
+
                 Route::get('/greeting', function () {
                     return 'Hello World';
                 });
                 --------- The Default Route Files ---------
                 use App\Http\Controllers\UserController;
-             
+
                 Route::get('/user', [UserController::class, 'index']);
                 --------- Available Router Methods -----------
                 Route::get($uri, $callback);
@@ -89,15 +89,15 @@ Architecture Concepts
                 Route::match(['get', 'post'], '/', function () {
                     //
                 });
-                 
+
                 Route::any('/', function () {
                     //
                 });
                 --------- Dependency Injection -----------
-                You may type-hint any dependencies required by your route in your route's callback signature. The declared dependencies will automatically be resolved and injected into the callback by the Laravel service container. 
+                You may type-hint any dependencies required by your route in your route's callback signature. The declared dependencies will automatically be resolved and injected into the callback by the Laravel service container.
 
                 use Illuminate\Http\Request;
-                 
+
                 Route::get('/users', function (Request $request) {
                     // ...
                 });
@@ -126,7 +126,7 @@ Architecture Concepts
                     ou may provide an array of data to pass to the view as an optional third argument
 
                     Route::view('/welcome', 'welcome');
-                     
+
                     Route::view('/welcome', 'welcome', ['name' => 'Taylor']);
 
                 The Route List
@@ -162,7 +162,7 @@ Architecture Concepts
                     If your route has dependencies that you would like the Laravel service container to automatically inject into your route's callback, you should list your route parameters after your dependencies:
 
                     use Illuminate\Http\Request;
-                     
+
                     Route::get('/user/{id}', function (Request $request, $id) {
                         return 'User '.$id;
                     });
@@ -171,7 +171,7 @@ Architecture Concepts
                     Route::get('/user/{name?}', function ($name = null) {
                         return $name;
                     });
-                     
+
                     Route::get('/user/{name?}', function ($name = 'John') {
                         return $name;
                     });
@@ -180,11 +180,11 @@ Architecture Concepts
                     Route::get('/user/{name}', function ($name) {
                         //
                     })->where('name', '[A-Za-z]+');
-                     
+
                     Route::get('/user/{id}', function ($id) {
                         //
                     })->where('id', '[0-9]+');
-                     
+
                     Route::get('/user/{id}/{name}', function ($id, $name) {
                         //
                     })->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
@@ -194,15 +194,15 @@ Architecture Concepts
                     Route::get('/user/{id}/{name}', function ($id, $name) {
                         //
                     })->whereNumber('id')->whereAlpha('name');
-                     
+
                     Route::get('/user/{name}', function ($name) {
                         //
                     })->whereAlphaNumeric('name');
-                     
+
                     Route::get('/user/{id}', function ($id) {
                         //
                     })->whereUuid('id');
-                     
+
                     Route::get('/category/{category}', function ($category) {
                         //
                     })->whereIn('category', ['movie', 'song', 'painting']);
@@ -217,7 +217,7 @@ Architecture Concepts
                 --------- Generating URLs To Named Routes ---------
                 // Generating URLs...
                 $url = route('profile');
-                 
+
                 // Generating Redirects...
                 return redirect()->route('profile');
 
@@ -226,7 +226,7 @@ Architecture Concepts
                 Route::get('/user/{id}/profile', function ($id) {
                     //
                 })->name('profile');
-                 
+
                 $url = route('profile', ['id' => 1]);
 
                 If you pass additional parameters in the array, those key / value pairs will automatically be added to the generated URL's query string:
@@ -234,9 +234,9 @@ Architecture Concepts
                 Route::get('/user/{id}/profile', function ($id) {
                     //
                 })->name('profile');
-                 
+
                 $url = route('profile', ['id' => 1, 'photos' => 'yes']);
-                 
+
                 // /user/1/profile?photos=yes
 
             Route Groups
@@ -245,7 +245,7 @@ Architecture Concepts
                         Route::get('/', function () {
                             // Uses first & second middleware...
                         });
-                     
+
                         Route::get('/user/profile', function () {
                             // Uses first & second middleware...
                         });
@@ -253,7 +253,7 @@ Architecture Concepts
 
                 Controllers
                     use App\Http\Controllers\OrderController;
-                     
+
                     Route::controller(OrderController::class)->group(function () {
                         Route::get('/orders/{id}', 'show');
                         Route::post('/orders', 'store');
@@ -283,7 +283,7 @@ Architecture Concepts
             Route Model Binding
                 Implicit Binding
                     use App\Models\User;
-                     
+
                     Route::get('/users/{user}', function (User $user) {
                         return $user->email;
                     });
@@ -292,7 +292,7 @@ Architecture Concepts
                     Typically, implicit model binding will not retrieve models that have been soft deleted. However, you may instruct the implicit binding to retrieve these models by chaining the withTrashed method onto your route's definition:
 
                     use App\Models\User;
-                     
+
                     Route::get('/users/{user}', function (User $user) {
                         return $user->email;
                     })->withTrashed();
@@ -300,7 +300,7 @@ Architecture Concepts
                     --------- Custom Keys & Scoping ---------
                     use App\Models\Post;
                     use App\Models\User;
-                     
+
                     Route::get('/users/{user}/posts/{post:slug}', function (User $user, Post $post) {
                         return $post;
                     });
@@ -310,7 +310,7 @@ Architecture Concepts
                 Explicit Binding
                     use App\Models\User;
                     use Illuminate\Support\Facades\Route;
-                     
+
                     /**
                      * Define your route model bindings, pattern filters, etc.
                      *
@@ -319,7 +319,7 @@ Architecture Concepts
                     public function boot()
                     {
                         Route::model('user', User::class);
-                     
+
                         // ...
 
                         Or
@@ -342,11 +342,11 @@ Architecture Concepts
             Rate Limiting
                 Defining Rate Limiters
                     The rate limiter name may be any string you wish:
-                    
+
                     use Illuminate\Cache\RateLimiting\Limit;
                     use Illuminate\Http\Request;
                     use Illuminate\Support\Facades\RateLimiter;
-                     
+
                     /**
                      * Configure the rate limiters for the application.
                      *
@@ -370,7 +370,7 @@ Architecture Concepts
                         Route::post('/audio', function () {
                             //
                         });
-                     
+
                         Route::post('/video', function () {
                             //
                         });
@@ -389,7 +389,7 @@ Architecture Concepts
 
             Accessing The Current Route
                 use Illuminate\Support\Facades\Route;
-                 
+
                 $route = Route::current(); // Illuminate\Routing\Route
                 $name = Route::currentRouteName(); // string
                 $action = Route::currentRouteAction(); // string
@@ -434,7 +434,7 @@ Architecture Concepts
 
                     => When assigning middleware, you may also pass the fully qualified class name:
                     use App\Http\Middleware\CheckAge;
-                     
+
                     Route::get('admin/profile', function () {
                         //
                     })->middleware(CheckAge::class);
@@ -800,6 +800,40 @@ Digging Deeper
     Notifications
     Package Development
     Queues
+        Introduction
+            => Queues allow you to defer the processing of a time consuming task, such as sending an email, until a later time.
+            Connections Vs. Queues
+
+            Driver Notes & Prerequisites
+                php artisan queue:table
+
+                php artisan migrate
+        Creating Jobs
+            Generating Job Classes
+                php artisan make:job ProcessPodcast
+
+            Class Structure
+        Dispatching Jobs
+            Delayed Dispatching
+            Synchronous Dispatching
+            Job Chaining
+            Customizing The Queue & Connection
+            Specifying Max Job Attempts / Timeout Values
+                => php artisan queue:work --tries=3
+            Rate Limiting
+            Error Handling
+        Queueing Closures
+        Running The Queue Worker
+            Queue Priorities
+            Queue Workers & Deployment
+            Job Expirations & Timeouts
+        Supervisor Configuration
+        Dealing With Failed Jobs
+            Cleaning Up After Failed Jobs
+            Failed Job Events
+            Retrying Failed Jobs
+            Ignoring Missing Models
+        Job Events
     Rate Limiting
     Task Scheduling
 
