@@ -153,10 +153,50 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
     Laravel 5.8 Tutorial From Scratch - e27 - Frontend Presets for React, Vue, Bootstrap & Tailwind CSS
 
     Laravel 5.8 Tutorial From Scratch - e28 - Events & Listeners
+    => If New Customer is Register than we can Send a Mail By Event and Listeners
+        php artisan make:mail WelcomeNewUserMail --markdown emails.new-welcome
+
+    => Event and Listeners:
+        php artisan make:event NewCustomerHasRegisteredEvent
+        php artisan make:listener WelcomeNewCustomerListener
+
+        Laravelv58/app/Providers
+
+        php artisan event:generate
+            Event:
+            /var/www/html/Laravelv58/app/Providers/NewCustomerHasRegisteredEvent.php
+
+            Event Service Provider:
+            /var/www/html/Laravelv58/app/Providers/EventServiceProvider.php
+
+            Listeners:
+            /var/www/html/Laravelv58/app/Listeners/NotifyAdminViaSlack.php
+            /var/www/html/Laravelv58/app/Listeners/RegisterCustomerToNewsletter.php
+            /var/www/html/Laravelv58/app/Listeners/WelcomeNewCustomerListener.php
 
     Laravel 5.8 Tutorial From Scratch - e29 - Queues: Database Driver
+        It should be "class WelcomeNewCustomerListener implements ShouldQueue { }"
+        In ".env" file we need to set "QUEUE_CONNECTION=database"
+        /var/www/html/Laravelv58/config/queue.php
+        In Production we are using "redis" for "Queueing"
+        but in Local we are using "database"
+
+        php artisan queue:table => This will create new migration table called "jobs"
+
+        Than run "php artisan migrate"
+
+        We need to run this command(This will check in background if any Queues creaed If created it will process):
+            php artisan queue:work
 
     Laravel 5.8 Tutorial From Scratch - e30 - queue:work In The Background
+            php artisan queue:work & (This will give the Job ID, for Eg:- 29008)
+
+            jobs (you can see the running jobs)
+            jobs -l (you can see the running jobs + process ID)
+
+            KILL 29008 (this will kill job with ID: "29008")
+
+            php artisan queue:work > storage/logs/jobs.log & (Log this job into log file)
 
     Laravel 5.8 Tutorial From Scratch - e31 - Deployment: Basic Server Setup - SSH, UFW, Nginx - Part 1
 

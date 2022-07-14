@@ -27,6 +27,25 @@ Route::view('readme', 'readme');
 
 Route::view('about', 'about');
 
+Route::get('/cookietesting',function () {
+    // Setting the Cookies
+    // Cookie::queue(Cookie::make('cookieNameTest', 'Girish kumar', 1));
+
+    // Forget/remove cookie:
+    // Cookie::queue(Cookie::forget('cookieNameTest'));
+
+    // Getting the Cookies
+    $value = Cookie::get('cookieNameTest');
+
+    // Check if cookie exist: 
+    Cookie::has('cookiename'); 
+    // or 
+    $request->hasCookie('cookiename'); // will return true or false
+
+    echo "value:: " . $value;
+
+});
+
 // Contact Form Page
 Route::get('contact', 'ContactFormController@create')->name('contact.create');
 Route::post('contact', 'ContactFormController@store')->name('contact.store');

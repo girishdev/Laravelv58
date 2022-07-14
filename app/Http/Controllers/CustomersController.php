@@ -5,7 +5,11 @@ namespace App\Http\Controllers;
 use App\Company;
 use App\Customer;
 use Illuminate\Http\Request;
+use App\Mail\WelcomeNewUserMail;
+use Illuminate\Support\Facades\Mail;
 use Intervention\Image\Facades\Image;
+use App\Providers\NewCustomerHasRegisteredEvent;
+// use App\Events\NewCustomerHasRegisteredEvent;
 
 class CustomersController extends Controller
 {
@@ -60,7 +64,10 @@ class CustomersController extends Controller
         // Customer::create($data);
         $customer = Customer::create($this->validateRequest());
 
+        // Store Image If Customer Proved
         $this->storeImage($customer);
+
+        event(new NewCustomerHasRegisteredEvent($customer));
 
         // Saving to Database
         /* $customer = new Customer();
@@ -70,7 +77,7 @@ class CustomersController extends Controller
         $customer->save(); /**/
 
         // return back();
-        return redirect('customers');
+        // return redirect('customers');
     }
 
     public function show(Customer $customer)

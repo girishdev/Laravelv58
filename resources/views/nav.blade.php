@@ -12,10 +12,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
+                        <!-- <li class="nav-item"> -->
                             <!-- <a class="nav-link" href="{{ action('HomeController@index') }}">Dasboard</a> -->
-                            <a class="nav-link" href="{{ action([\App\Http\Controllers\HomeController::class, 'index']) }}">Dasboard</a>
-                        </li>
+                            <!-- <a class="nav-link" href="{{ action([\App\Http\Controllers\HomeController::class, 'index']) }}">Dasboard</a> -->
+                        <!-- </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="/readme">Read me</a>
                         </li>

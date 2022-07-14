@@ -408,12 +408,36 @@ Architecture Concepts
                 php artisan route:clear
 
         Middleware
+            Example Middleware:
+                Authenticate.php
+                VerifyCsrfToken.php
+                TrimStrings.php
+                and etc...
+
             Defining Middleware
+                To Create Middleware:
+                php artisan make:middleware CheckAge
 
             Registering Middleware
                 Global Middleware
-
+                    If you want a middleware to run during every HTTP request to your application, list the middleware class in the $middleware property of your app/Http/Kernel.php class.
                 Assigning Middleware To Routes
+                    If you would like to assign middleware to specific routes, you should first assign the middleware a key in your app/Http/Kernel.php file. By default, the $routeMiddleware property of this class contains entries for the middleware included with Laravel. To add your own, append it to this list and assign it a key of your choosing:
+
+                    Route::get('admin/profile', function () {
+                        //
+                    })->middleware('auth');
+
+                    Route::get('/', function () {
+                        //
+                    })->middleware('first', 'second');
+
+                    => When assigning middleware, you may also pass the fully qualified class name:
+                    use App\Http\Middleware\CheckAge;
+                     
+                    Route::get('admin/profile', function () {
+                        //
+                    })->middleware(CheckAge::class);
 
                 Middleware Groups
 
