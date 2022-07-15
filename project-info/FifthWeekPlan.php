@@ -18,24 +18,52 @@ Fifth week plan:
     2. Laravel Listener //
     3. Laravel Queue (Supervisor and Its Configuration) // .....
     4. Laravel Middleware //
+        https://www.youtube.com/watch?v=5Cf-04IzGSo&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=23
+        https://www.youtube.com/watch?v=CQyNDnMhf8U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=24
     5. Laravel Sending Notification and Emails
         All About "Sending Notification"
             https://www.youtube.com/watch?v=gtMXs9a1e0Y
             https://www.youtube.com/watch?v=upKOwoe8LsM
             https://www.youtube.com/watch?v=5DREuAvFnps
+    6. Laravel Artisan
+        https://www.youtube.com/watch?v=uWrecwtVarw&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=34
+        https://www.youtube.com/watch?v=5o1raoxJI3U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=35
+        https://www.youtube.com/watch?v=mMnjTO1-yLg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=36
 
-    6. Laravel Policy
-    7. Laravel Jobs
-    8. Laravel Artisan
-    9. Model Factories (Seeding)
+    7. Model Factories (Seeding)
+        https://www.youtube.com/watch?v=s37i5W1Bzp8&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=37
+        https://www.youtube.com/watch?v=U5gxiPNcSZU&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=38
+
+    8. Laravel Policy
+        https://www.youtube.com/watch?v=NrlY-xeqHBg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=44
+        https://www.youtube.com/watch?v=7CXkYxdqTYc&list=PLe30vg_FG4OR3b24WlxeTWsj7Z2wOtYrH&index=20&t=4s
+
+    9. Laravel Jobs
+        https://www.youtube.com/watch?v=DFXNYI0iy1g&t=4s
+        https://www.youtube.com/watch?v=RCb9oidcPfM
+        https://www.youtube.com/watch?v=rVx8xKisbr8
 
     10. Laravel Eloquent Model(All Relationships)
     11. Laravel DB Query(With All Relationships)
 
     12. Service Container
+        https://www.youtube.com/watch?v=PGVqkEZiUoc
+        https://www.youtube.com/watch?v=_z9nzEUgro4&t=118s
+        https://www.youtube.com/watch?v=Lf6R5oDtkFo
+        https://www.youtube.com/watch?v=5glsdzGeYQo
+        https://www.youtube.com/watch?v=TQGq6k8HQk4
+
     13. Service Providers
+        https://www.youtube.com/watch?v=1AxQNDOJTBw&t=23s
+        https://www.youtube.com/watch?v=VYPfncvYW-Y&t=9s
+
     14. Contracts
+        https://www.youtube.com/watch?v=IrIZ7wiWocg
+        https://www.youtube.com/watch?v=k5nZ4zgc9X8
+
     15. Facades
+        https://www.youtube.com/watch?v=zR6JnwH7MSQ
+        https://www.youtube.com/watch?v=zD2VJhOdI5c&list=PLe30vg_FG4OSAe3l51470wMxVhq5MzqSp&index=22&t=254s
 
     14. Laravel API's(Passport, Auth, JWT and etc...)
     15. Laravel Testing TDD
@@ -46,7 +74,7 @@ Fifth week plan:
     18. Laravel Package Development
 
     ------------------------------------------
-    1. Questiion and Answers Related to this Advance Topics
+    1. Question and Answers Related to this Advance Topics
     2. Key Points about this Advance Topics
     3. Examples On Each Advance Topics
     5. What is the Use Of creating "Artisan Commands", "Policy" and etc...
@@ -60,6 +88,17 @@ Fifth week plan:
         ***https://devdojo.com/alpdetails/laravel-best-practice-coding-standards-part-01#toc-01-03-06-primary-key => [devdojoBestPractice] //
 
     8. Other Missing Topics we can add it here(Task Scheduling, Collections, and etc....)
+    ------------------------------------------
+    Laravel Video Series Tutorial:
+        [Downloaded] https://www.youtube.com/playlist?list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4
+        https://www.youtube.com/playlist?list=PLpzy7FIRqpGC8Jk6gyWdSVdxCVXZAsenQ
+        https://www.youtube.com/playlist?list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO
+        https://www.youtube.com/playlist?list=PLe30vg_FG4OSAe3l51470wMxVhq5MzqSp
+        https://www.youtube.com/playlist?list=PLe30vg_FG4OR3b24WlxeTWsj7Z2wOtYrH
+    ------------------------------------------
+    VueJs Video Series Tutorial:
+        https://www.youtube.com/watch?v=Hspgd7eFvsw&list=PLe30vg_FG4OS2ITq96FZLqHi1YreNuVVl
+        [Downloaded] https://www.youtube.com/watch?v=wVmSvDqojBc&list=PLpzy7FIRqpGDuLIo0zZ43CpA5MmYnnCUy
 
 Very Important Link:
     https://laravel-guide.readthedocs.io/en/latest/middleware/
