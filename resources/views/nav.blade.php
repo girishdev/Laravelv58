@@ -1,5 +1,3 @@
-</ul>
-
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -30,6 +28,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/qanda">Q and A</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/userlist">User List</a>
                         </li>
                         <!-- <div class="dropdown" style="margin-right: 5px;">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -11,6 +11,79 @@
 |
 */
 
+/*
+// Step-1
+app()->bind('Games 2', function () {
+    return 'Football 2';
+});
+
+dd(app()->make('Games 2')); /**/
+
+// Step-2
+/*
+class Stadium {}
+class Football {
+    public function __construct(Stadium $stadium)
+    {
+        $this->stadium = $stadium;
+    }
+}
+class Game {
+    public function __construct(Football $football)
+    {
+        $this->football = $football;
+    }
+}
+
+app()->bind('Game', function () {
+    return new Game(new Football(new Stadium));
+});
+
+dd(app()->make('Game'));
+// dd(resolve('Game')); // Wen aloe make resolve /**/
+
+// Step-3:
+/*
+app()->instance('Game', function () {
+    return 'Instance Of the Game';
+});
+
+dd(app()); /**/
+
+// Step-4:
+/*
+use Illuminate\Support\Str;
+
+// This bind method will call two times here / On each request
+app()->bind('random', function () {
+    return Str::random();
+});
+
+// This Singleton method will call only one times here / One request only
+app()->singleton('random2', function () {
+    return Str::random();
+});
+
+dump(app()->make('random'));
+dump(app()->make('random'));
+
+dump(app()->make('random2'));
+dd(app()->make('random2')); /**/
+
+// dd(app());
+
+// dd(app()->make('Hello'));
+
+// Calling as a Non-Static method
+cache()->set('name', 'Girish');
+dump(cache()->get('name'));
+
+// Calling as a static method
+use Illuminate\Support\Facades\Cache;
+Cache::set('name', 'kumar');
+dd(Cache::get('name'));
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -27,6 +100,9 @@ Route::view('readme', 'readme');
 
 Route::view('about', 'about');
 
+// User List - get all the Users
+Route::get('/userlist', 'HomeController@usersList');
+
 Route::get('/cookietesting',function () {
     // Setting the Cookies
     // Cookie::queue(Cookie::make('cookieNameTest', 'Girish kumar', 1));
@@ -37,9 +113,9 @@ Route::get('/cookietesting',function () {
     // Getting the Cookies
     $value = Cookie::get('cookieNameTest');
 
-    // Check if cookie exist: 
-    Cookie::has('cookiename'); 
-    // or 
+    // Check if cookie exist:
+    Cookie::has('cookiename');
+    // or
     $request->hasCookie('cookiename'); // will return true or false
 
     echo "value:: " . $value;

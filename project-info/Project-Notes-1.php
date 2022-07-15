@@ -205,12 +205,66 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
     Laravel 5.8 Tutorial From Scratch - e33 - Deployment: Basic Server Setup - SSL, HTTPS - Part 3
 
     Laravel 5.8 Tutorial From Scratch - e34 - Artisan Commands - Part 1
+        php artisan make:command AddCompanyCommand
+        php artisan help contact:company
+
+        php artisan contact:company
+
+        php artisan contact:company GirishKumar
+        php artisan contact:company GirishKumar 8892240256
 
     Laravel 5.8 Tutorial From Scratch - e35 - Artisan Commands - Part 2
 
     Laravel 5.8 Tutorial From Scratch - e36 - Artisan Commands (Closure) - Part 3
+        To Clear Company:
+        php artisan contact:company-clean
 
-    Laravel 5.8 Tutorial From Scratch - e37 - Model Factories
+    Laravel 5.8 Tutorial From Scratch - e37 - Model Factories => 10:50 -
+        php artisan tinker
+        User::all()->pluck('name');
+        factory(\App\User::class)->create();
+        factory(\App\User::class, 3)->create();
+
+        Some Error While creating:
+            PHP Deprecated:  The "Doctrine/Common/Inflector/Inflector::pluralize" method is deprecated and will be dropped in doctrine/inflector 2.0.
+            Please update to the new Inflector API. in /var/www/html/Laravelv58/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php on line 264
+
+        php artisan make:factory CompanyFactory -m Company
+        OR
+        php artisan make:factory CompanyFactory --model=Company
+        Company::all()->pluck('name');
+
+        factory(App\Company::class, 3)->create();
+
+        $company = Company::factory()->create();
+        // Create three App\User instances...
+        $company = factory(App\Company::class, 3)->make();
+        ---------------------------------
+        https://kaloraat.com/articles/generate-fake-data-using-faker-and-factory-in-laravel
+            php artisan make:seeder CompanyTableSeeder
+
+        For faker Examples:
+            https://github.com/fzaninotto/Faker#table-of-contents
+        ---------------------------------
+        So Conclusion:
+            => This is an Example for Creating Company's in factoy/facker
+                php artisan make:factory CompanyFactory -m Company
+                Or
+                php artisan make:factory CompanyFactory --model=Company
+
+                php artisan make:seeder CompanyTableSeeder
+
+                php artisan db:seed
+
+                => This is an Example for Creating Company's in factoy/facker
+                php artisan make:factory CompanyFactory -m Company
+                Or
+                php artisan make:factory CompanyFactory --model=Company
+
+                php artisan make:seeder CompanyTableSeeder
+
+                php artisan db:seed
+        ---------------------------------
 
     Laravel 5.8 Tutorial From Scratch - e38 - Database & Table Seeders
 

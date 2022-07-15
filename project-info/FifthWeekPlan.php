@@ -53,9 +53,17 @@ Fifth week plan:
         https://www.youtube.com/watch?v=5glsdzGeYQo
         https://www.youtube.com/watch?v=TQGq6k8HQk4
 
+        => index.php => app.php => Application.php
+
     13. Service Providers
         https://www.youtube.com/watch?v=1AxQNDOJTBw&t=23s
         https://www.youtube.com/watch?v=VYPfncvYW-Y&t=9s
+
+        We can create Our Own "Service Provide"
+        => php artisan make:provider TestServiceProvider
+        After running command We need to register in "App.php\Config"
+        dd(app()->make('Hello'));
+        "Hello" is register on "Service Container"
 
     14. Contracts
         https://www.youtube.com/watch?v=IrIZ7wiWocg
@@ -64,6 +72,21 @@ Fifth week plan:
     15. Facades
         https://www.youtube.com/watch?v=zR6JnwH7MSQ
         https://www.youtube.com/watch?v=zD2VJhOdI5c&list=PLe30vg_FG4OSAe3l51470wMxVhq5MzqSp&index=22&t=254s
+        It is just a warper around Non-Static function to Static function
+        For Eg:-
+            we call as static function
+
+            // Calling as a Non-Static method
+            cache()->set('name', 'Girish');
+            dump(cache()->get('name'));
+
+            // Calling as a static method
+            use Illuminate\Support\Facades\Cache;
+            Cache::set('name', 'kumar');
+            dd(Cache::get('name'));
+
+            => It is Very Easy to Use / Code Looks Good
+            => For Testing Purpose also it is Useful
 
     14. Laravel API's(Passport, Auth, JWT and etc...)
     15. Laravel Testing TDD
