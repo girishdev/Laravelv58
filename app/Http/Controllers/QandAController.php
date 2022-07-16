@@ -16,6 +16,7 @@ class QandAController extends Controller
      */
     public function index()
     {
+        // return "In Index index....";
         // Fetching all the Question and Answers
         // $questions = QandA::all();
         // $questions = QandA::simplePaginate(10);
@@ -34,7 +35,7 @@ class QandAController extends Controller
         $awsBasic = QandA::where([['topic','=','AWS'], ['qtype','=','Basic']])->paginate(10);
         $awsIntermediate = QandA::where([['topic','=','AWS'], ['qtype','=','Intermediate']])->paginate(10);
         $awsAdvanced = QandA::where([['topic','=','AWS'], ['qtype','=','Advanced']])->paginate(10);
-        // dd($awsBasic);
+
         return view('QandA.index', compact(
             'laravelBasic',
             'laravelIntermediate',

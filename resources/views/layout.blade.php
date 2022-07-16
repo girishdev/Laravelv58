@@ -18,9 +18,8 @@
 
     <!-- Optional theme -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" crossorigin="anonymous">-->
-    <!-- <link rel="stylesheet" type="text/css" href="{{ url('/css/style.css') }}" />-->
+    <link rel="stylesheet" type="text/css" href="{{ url('/css/style.css') }}" />
 
-    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
 <div class="container">

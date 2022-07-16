@@ -86,7 +86,9 @@ Fifth week plan:
             dd(Cache::get('name'));
 
             => It is Very Easy to Use / Code Looks Good
+                - Memorable syntax that allows you to use Laravel's features without remembering long class names that must be injected or configured manually.
             => For Testing Purpose also it is Useful
+            => The primary danger of facades is class scope creep. Since facades are so easy to use and do not require injection, it can be easy to let your classes continue to grow and use many facades in a single class.
 
     14. Laravel API's(Passport, Auth, JWT and etc...)
     15. Laravel Testing TDD

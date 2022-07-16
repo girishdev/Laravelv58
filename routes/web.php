@@ -74,6 +74,8 @@ dd(app()->make('random2')); /**/
 
 // dd(app()->make('Hello'));
 
+/*
+// Cache Explanation:
 // Calling as a Non-Static method
 cache()->set('name', 'Girish');
 dump(cache()->get('name'));
@@ -81,8 +83,7 @@ dump(cache()->get('name'));
 // Calling as a static method
 use Illuminate\Support\Facades\Cache;
 Cache::set('name', 'kumar');
-dd(Cache::get('name'));
-
+dd(Cache::get('name')); /**/
 
 Route::get('/', function () {
     return view('welcome');

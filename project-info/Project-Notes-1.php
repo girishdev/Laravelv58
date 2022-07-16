@@ -266,11 +266,11 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
                 php artisan db:seed
         ---------------------------------
 
-    Laravel 5.8 Tutorial From Scratch - e38 - Database & Table Seeders
+    // Laravel 5.8 Tutorial From Scratch - e38 - Database & Table Seeders
 
-    Laravel 5.8 Tutorial From Scratch - e39 - Image Upload - Part 1
+    // Laravel 5.8 Tutorial From Scratch - e39 - Image Upload - Part 1
 
-    Laravel 5.8 Tutorial From Scratch - e40 - Image Upload: Cropping & Resizing - Part 2
+    // Laravel 5.8 Tutorial From Scratch - e40 - Image Upload: Cropping & Resizing - Part 2
 
     Laravel 5.8 Tutorial From Scratch - e41 - Telescope
 
