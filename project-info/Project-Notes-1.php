@@ -5,31 +5,31 @@ Model Should be singular Not Plural
 php artisan make:model Customer -m
 
 php artisan tinker
->>> $customer = new Customer();
->>> $customer->name = 'Girish';
->>> $customer->save();
->>> Customer::all();
+    >>> $customer = new Customer();
+    >>> $customer->name = 'Girish';
+    >>> $customer->save();
+    >>> Customer::all();
 
 Note:
-Till Pushing to Production Server you can generate as many Migration you want
-but when you Release Specific Version in PS, then you need to create New Migration file
+    Till Pushing to Production Server you can generate as many Migration you want
+    but when you Release Specific Version in PS, then you need to create New Migration file
 
 Note: Migration Describes Database
-php artisan migrate:rollback => This will go One Step backwords
-php artisan migrate
+    php artisan migrate:rollback => This will go One Step backwords
+    php artisan migrate
 
 Model are the Singular version what we do
 php artisan make:model Company -m
 
 Adding Company:
-php artisan tinker
-$c = Company::create(['name' => 'ABC Company', 'phone' => '123-123-1234']);
-Relationship
-1. A Company has Many Customers
-2. A Customer Belongs to the Company
+    php artisan tinker
+    $c = Company::create(['name' => 'ABC Company', 'phone' => '123-123-1234']);
 
-Note: If you keep It Naming convention Singular to Plural
-the all it works
+Relationship
+    1. A Company has Many Customers
+    2. A Customer Belongs to the Company
+
+Note: If you keep It Naming convention Singular to Plural the all it works
 
 php artisan migrate:fresh => Generate Fresh Tables
 
@@ -49,7 +49,6 @@ php artisan make:controller TestagainController -r -m Customer
 
 php artisan make:model qanda -m
 php artisan make:controller qandasController - r -m qanda
-
 
 Model - Singular
 Controller - Plural
@@ -132,7 +131,7 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
     php artisan up
     => Middleware we can do it in Two ways
         1. Route level Middleware
-        2. Controleer level Middleware
+        2. Controller level Middleware
 
     Laravel 5.8 Tutorial From Scratch - e23 - Adding a Custom Middleware
     11:04
@@ -153,26 +152,26 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
     Laravel 5.8 Tutorial From Scratch - e27 - Frontend Presets for React, Vue, Bootstrap & Tailwind CSS
 
     Laravel 5.8 Tutorial From Scratch - e28 - Events & Listeners
-    => If New Customer is Register than we can Send a Mail By Event and Listeners
-        php artisan make:mail WelcomeNewUserMail --markdown emails.new-welcome
+        => If New Customer is Register than we can Send a Mail By Event and Listeners
+            php artisan make:mail WelcomeNewUserMail --markdown emails.new-welcome
 
-    => Event and Listeners:
-        php artisan make:event NewCustomerHasRegisteredEvent
-        php artisan make:listener WelcomeNewCustomerListener
+        => Event and Listeners:
+            php artisan make:event NewCustomerHasRegisteredEvent
+            php artisan make:listener WelcomeNewCustomerListener
 
-        Laravelv58/app/Providers
+            Laravelv58/app/Providers
 
-        php artisan event:generate
-            Event:
-            /var/www/html/Laravelv58/app/Providers/NewCustomerHasRegisteredEvent.php
+            php artisan event:generate
+                Event:
+                /var/www/html/Laravelv58/app/Providers/NewCustomerHasRegisteredEvent.php
 
-            Event Service Provider:
-            /var/www/html/Laravelv58/app/Providers/EventServiceProvider.php
+                Event Service Provider:
+                /var/www/html/Laravelv58/app/Providers/EventServiceProvider.php
 
-            Listeners:
-            /var/www/html/Laravelv58/app/Listeners/NotifyAdminViaSlack.php
-            /var/www/html/Laravelv58/app/Listeners/RegisterCustomerToNewsletter.php
-            /var/www/html/Laravelv58/app/Listeners/WelcomeNewCustomerListener.php
+                Listeners:
+                /var/www/html/Laravelv58/app/Listeners/NotifyAdminViaSlack.php
+                /var/www/html/Laravelv58/app/Listeners/RegisterCustomerToNewsletter.php
+                /var/www/html/Laravelv58/app/Listeners/WelcomeNewCustomerListener.php
 
     Laravel 5.8 Tutorial From Scratch - e29 - Queues: Database Driver
         It should be "class WelcomeNewCustomerListener implements ShouldQueue { }"
@@ -338,7 +337,7 @@ https://laravel.com/docs/master/validation#available-validation-rules
 27. Multi Image File Upload & Gallery
 
 28. Vue Basics
-
+    
 29. Git Push and Pull
 
 php artisan serve --host=192.168.1.7 --port=8000
