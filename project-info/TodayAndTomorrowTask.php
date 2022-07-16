@@ -23,6 +23,11 @@ Today and Tomorrow Task:
 
         web.php
 
+    => Update the Respective links
+        On Esch Advance Topic
+
+    => Listdown all the current Concepts/Topics Documented properly Or with percentage
+
     => GDrive Notes:
         - LaravelCertification-MainNotes
         - LaravelCertification-ShortNotes
