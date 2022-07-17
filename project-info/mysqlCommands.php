@@ -27,3 +27,8 @@ Mysql Server Start/Stop/Restart:
 
 SHOW GLOBAL VARIABLES LIKE 'PORT';
 
+To download as tsv file:
+    mysql -u root -e "select * from Laravelv58.qand_a_s;" > output.tsv
+
+
+

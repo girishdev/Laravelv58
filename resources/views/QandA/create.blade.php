@@ -81,6 +81,7 @@
         $(document).ready(function() {
             $("#question").keyup(function(){
                 var value = $(this).val();
+                console.log(value);
                 $('#searchResponse').html('');
                 if (value.length >= 3) {
                     $.ajax({

@@ -1,7 +1,7 @@
 Today and Tomorrow Task:
 
 1. Review All Laravel Advance Concepts
-    //Service Container
+    //Service Container: [Architecture]
         Links:
             https://www.youtube.com/watch?v=PGVqkEZiUoc
             https://www.youtube.com/watch?v=_z9nzEUgro4&t=118s
@@ -17,7 +17,7 @@ Today and Tomorrow Task:
             What is Reflection and how it is working?
             https://www.educba.com/php-reflection/
 
-    //Service Providers
+    //Service Providers: [Architecture]
         Links:
             https://www.youtube.com/watch?v=1AxQNDOJTBw&t=23s
             https://www.youtube.com/watch?v=VYPfncvYW-Y&t=9s
@@ -31,7 +31,7 @@ Today and Tomorrow Task:
             dd(app()->make('Hello'));
             "Hello" is register on "Service Container"
 
-    //Facades
+    //Facades: [Architecture]
         Links:
             https://www.youtube.com/watch?v=zR6JnwH7MSQ
             https://www.youtube.com/watch?v=zD2VJhOdI5c&list=PLe30vg_FG4OSAe3l51470wMxVhq5MzqSp&index=22&t=254s
@@ -57,7 +57,7 @@ Today and Tomorrow Task:
                 => For Testing Purpose also it is Useful
                 => The primary danger of facades is class scope creep. Since facades are so easy to use and do not require injection, it can be easy to let your classes continue to grow and use many facades in a single class.
 
-    /Contracts
+    /Contracts: [Architecture]
         Links:
             https://www.youtube.com/watch?v=IrIZ7wiWocg
             https://www.youtube.com/watch?v=k5nZ4zgc9X8
@@ -66,7 +66,7 @@ Today and Tomorrow Task:
 
         Examples:
 
-    //Middleware
+    //Middleware: [Middleware]
         Links:
             https://www.youtube.com/watch?v=5Cf-04IzGSo&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=23
             https://www.youtube.com/watch?v=CQyNDnMhf8U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=24
@@ -81,7 +81,7 @@ Today and Tomorrow Task:
 
             php artisan make:middleware TestMiddleware
 
-    /Artisan Console
+    /Artisan Console: [Artisan Console]
         Links:
             https://www.youtube.com/watch?v=uWrecwtVarw&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=34
             https://www.youtube.com/watch?v=5o1raoxJI3U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=35
@@ -101,7 +101,7 @@ Today and Tomorrow Task:
             To Clear Company:
             php artisan contact:company-clean
 
-    //Queues (50%)
+    //Queues (50%): [Queues]
         Links:
             https://www.youtube.com/watch?v=lGOACudnLWE&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=29
             https://www.youtube.com/watch?v=5wJ3NHDR134&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=30&t=7s
@@ -131,7 +131,7 @@ Today and Tomorrow Task:
 
             php artisan queue:work > storage/logs/jobs.log & (Log this job into log file)
 
-    /Policy (50%)
+    /Policy (50%): [Queues]
         Links:
             https://www.youtube.com/watch?v=NrlY-xeqHBg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=44
             https://www.youtube.com/watch?v=7CXkYxdqTYc&list=PLe30vg_FG4OR3b24WlxeTWsj7Z2wOtYrH&index=20&t=4s
@@ -140,7 +140,7 @@ Today and Tomorrow Task:
 
         Examples:
 
-    /Jobs
+    /Jobs: [Queues]
         Links:
             https://www.youtube.com/watch?v=DFXNYI0iy1g&t=4s
             https://www.youtube.com/watch?v=RCb9oidcPfM
@@ -150,7 +150,7 @@ Today and Tomorrow Task:
 
         Examples:
 
-    //Seeding (Model Factories)
+    //Seeding (Model Factories): [Database]
         Links:
             https://www.youtube.com/watch?v=s37i5W1Bzp8&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=37
             https://www.youtube.com/watch?v=U5gxiPNcSZU&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=38
@@ -203,21 +203,21 @@ Today and Tomorrow Task:
 
                     php artisan db:seed
 
-    Laravel Eloquent Model
+    Laravel Eloquent Model: [Eloquent ORM]
         Links:
 
         Documentation:
 
         Examples:
 
-    Laravel DB Query
+    Laravel DB Query: [Database]
         Links:
 
         Documentation:
 
         Examples:
 
-    /Sending Emails
+    /Sending Emails: [Mail]
         Links:
             https://www.youtube.com/watch?v=gtMXs9a1e0Y
             https://www.youtube.com/watch?v=upKOwoe8LsM
@@ -227,7 +227,7 @@ Today and Tomorrow Task:
 
         Examples:
 
-    //Even and Listener
+    //Even and Listener: [Events]
         Links:
             https://www.youtube.com/watch?v=6wZKwJQF7Is&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=28&t=14s
 
@@ -292,22 +292,39 @@ Today and Tomorrow Task:
 
 3. Read and Analyze QandA related to the Advance Concepts
 
-4. Check the Examples Of Each Concepts
+4. Check the Working Examples Of Each Concepts In Current Build Project
 
 Next Week Plan:
-    1. Testing TDD and its QandA, Commands
-    2. Laravel API Development
-    3. Laravel All Its Packages and its Usage
-    4. OOP's QnadA and all Its Concepts with Examples
-    5. Align the Projects => Laravelv58/project-info/latestProjectHandling.php
-    6. Design Patterns In Laravel and PHP
-    7. Lead and its Responsibilities (how to become leader in web development)
-    - Code Analyzing / Code Optimizing
-    - Guiding Juniors
-    - Conducting Meetings
-    - Preparing PPT
-    - Designing Flow Charts
-    - Building Architecture Of The Project
+    1. Finish Pending Advance Concepts:
+        Laravel Eloquent Model: [Eloquent ORM]
+        Laravel DB Query: [Database]
+        Localization: [Frontend]
+        Task Scheduling: [Task Scheduling]
+        Lazy Loading vs. Eager Loading (Fixing N + 1 Problem): [Eloquent ORM]
+        Collections: [Collections]
+        Broadcasting: [Websockets]
+        Error Handling & Logging: [Logging]
+
+    2. Testing TDD and its QandA, Commands
+
+    3. Laravel API Development
+
+    4. Laravel All Its Packages and its Usage
+
+    5. OOP's QnadA and all Its Concepts with Examples
+        php oops concepts
+
+    6. Align the Projects => Laravelv58/project-info/latestProjectHandling.php
+
+    7. Design Patterns In Laravel and PHP
+
+    8. Lead and its Responsibilities (how to become leader in web development)
+        - Code Analyzing / Code Optimizing
+        - Guiding Juniors
+        - Conducting Meetings
+        - Preparing PPT
+        - Designing Flow Charts
+        - Building Architecture Of The Project
 
 Morning Practice On Board:
     1. Laravel Commands
@@ -324,4 +341,28 @@ Morning Practice On Board:
     4. Ubuntu Commands
 
     5. PhpStorm Commands
+
+Resume Update / Job Preparation:
+    1. Updated Resume If Needed
+        Apache And Nginx Server, Amazon Web Services (EC2, S3)
+
+    2. Job Portal:
+        https://larajobs.com/
+        https://www.turing.com/
+        https://www.naukri.com/
+        https://www.linkedin.com/jobs/
+        https://www.glassdoor.co.in/index.html
+        https://in.indeed.com/
+
+    3. Description The Project Shortly and Project Outcome
+
+    4. what Laravel version you have used?
+
+    5. Mention Plus Points:
+        Laravel Certification
+        Working as a Team Lead Proxy
+        Teaching Juniors
+
+
+
 

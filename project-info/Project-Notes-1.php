@@ -126,23 +126,23 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
     11:37
 
     Laravel 5.8 Tutorial From Scratch - e22 - Artisan Authentication Restricting Access with Middleware
-    08:40
-    php artisan down
-    php artisan up
-    => Middleware we can do it in Two ways
-        1. Route level Middleware
-        2. Controller level Middleware
+        08:40
+        php artisan down
+        php artisan up
+        => Middleware we can do it in Two ways
+            1. Route level Middleware
+            2. Controller level Middleware
 
     Laravel 5.8 Tutorial From Scratch - e23 - Adding a Custom Middleware
-    11:04
-    php artisan make:middleware TestMiddleware
+        11:04
+        php artisan make:middleware TestMiddleware
 
     Laravel 5.8 Tutorial From Scratch - e24 - URL Helpers
-    10:16
-    {{ url('/contact') }}
-    {{ route('contact.store') }}
-    php artisan route:list
-    {{ action('HomeController@index') }}
+        10:16
+        {{ url('/contact') }}
+        {{ route('contact.store') }}
+        php artisan route:list
+        {{ action('HomeController@index') }}
 
     Laravel 5.8 Tutorial From Scratch - e25 - Front End Setup with NPM, Node, Vue & Webpack
     11:13
