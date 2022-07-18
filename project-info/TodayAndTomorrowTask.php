@@ -1,7 +1,7 @@
 Today and Tomorrow Task:
 
 1. Review All Laravel Advance Concepts
-    //Service Container: [Architecture]
+    ///Service Container: [Architecture] => Notes Added
         Links:
             https://www.youtube.com/watch?v=PGVqkEZiUoc
             https://www.youtube.com/watch?v=_z9nzEUgro4&t=118s
@@ -10,6 +10,9 @@ Today and Tomorrow Task:
             https://www.youtube.com/watch?v=TQGq6k8HQk4
 
         Documentation:
+            LaravelCertification-MainNotes/ServiceContainer
+
+        Laravel Document Explanation:
 
         Examples:
             => index.php => app.php => Application.php
@@ -17,12 +20,32 @@ Today and Tomorrow Task:
             What is Reflection and how it is working?
             https://www.educba.com/php-reflection/
 
-    //Service Providers: [Architecture]
+    ///Service Providers: [Architecture] => Notes Added
         Links:
             https://www.youtube.com/watch?v=1AxQNDOJTBw&t=23s
             https://www.youtube.com/watch?v=VYPfncvYW-Y&t=9s
 
         Documentation:
+            LaravelCertification-MainNotes/ServiceProviders
+
+        Laravel Documentation:
+            Service Providers
+
+            Introduction
+                    Service providers are the central place of all Laravel application bootstrapping. Your own application, as well as all of Laravel's core services are bootstrapped via service providers.
+
+                    But, what do we mean by ""bootstrapped""? In general, we mean registering things, including registering service container bindings, event listeners, middleware, and even routes. Service providers are the central place to configure your application.
+
+                    If you open the config/app.php file included with Laravel, you will see a providers array. 
+
+            Writing Service Providers: all this sub topics are red from Documentation
+                    The Register Method
+
+                    The Boot Method
+
+            Registering Providers
+
+            Deferred Providers
 
         Examples:
             We can create Our Own "Service Provide"
@@ -31,14 +54,17 @@ Today and Tomorrow Task:
             dd(app()->make('Hello'));
             "Hello" is register on "Service Container"
 
-    //Facades: [Architecture]
-        Links:
+    ///Facades: [Architecture] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=zR6JnwH7MSQ
             https://www.youtube.com/watch?v=zD2VJhOdI5c&list=PLe30vg_FG4OSAe3l51470wMxVhq5MzqSp&index=22&t=254s
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/LaravelFacades
 
-        Examples:
+        Laravel Documentation:
+
+        Video Examples:
             It is just a warper around Non-Static function to Static function
             For Eg:-
                 we call as static function
@@ -57,22 +83,25 @@ Today and Tomorrow Task:
                 => For Testing Purpose also it is Useful
                 => The primary danger of facades is class scope creep. Since facades are so easy to use and do not require injection, it can be easy to let your classes continue to grow and use many facades in a single class.
 
-    /Contracts: [Architecture]
+    //Contracts: [Architecture] => Notes Added
         Links:
             https://www.youtube.com/watch?v=IrIZ7wiWocg
             https://www.youtube.com/watch?v=k5nZ4zgc9X8
 
         Documentation:
+            LaravelCertification-MainNotes/Contracts
 
         Examples:
 
-    //Middleware: [Middleware]
-        Links:
+    ///Middleware: [Middleware] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=5Cf-04IzGSo&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=23
             https://www.youtube.com/watch?v=CQyNDnMhf8U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=24
-        Documentation:
 
-        Examples:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/LaravelMiddleware
+
+        Video Examples:
             php artisan down
             php artisan up
             => Middleware we can do it in Two ways
@@ -81,15 +110,16 @@ Today and Tomorrow Task:
 
             php artisan make:middleware TestMiddleware
 
-    /Artisan Console: [Artisan Console]
-        Links:
+    ///Artisan Console: [Artisan Console] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=uWrecwtVarw&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=34
             https://www.youtube.com/watch?v=5o1raoxJI3U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=35
             https://www.youtube.com/watch?v=mMnjTO1-yLg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=36
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/Artisan Console
 
-        Examples:
+        Video Examples:
             php artisan make:command AddCompanyCommand
             php artisan help contact:company
 
@@ -101,14 +131,16 @@ Today and Tomorrow Task:
             To Clear Company:
             php artisan contact:company-clean
 
-    //Queues (50%): [Queues]
-        Links:
+    ///Queues (50%): [Queues] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=lGOACudnLWE&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=29
             https://www.youtube.com/watch?v=5wJ3NHDR134&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=30&t=7s
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/LaravelSupervisor
+            LaravelCertification-MainNotes/LaravelQueue
 
-        Examples:
+        Video Examples:
             It should be "class WelcomeNewCustomerListener implements ShouldQueue { }"
             In ".env" file we need to set "QUEUE_CONNECTION=database"
             /var/www/html/Laravelv58/config/queue.php
@@ -131,33 +163,36 @@ Today and Tomorrow Task:
 
             php artisan queue:work > storage/logs/jobs.log & (Log this job into log file)
 
-    /Policy (50%): [Queues]
-        Links:
+    //Policy (50%): [Queues] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=NrlY-xeqHBg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=44
             https://www.youtube.com/watch?v=7CXkYxdqTYc&list=PLe30vg_FG4OR3b24WlxeTWsj7Z2wOtYrH&index=20&t=4s
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/Policy
 
-        Examples:
+        Video Examples:
 
-    /Jobs: [Queues]
-        Links:
+    //Jobs: [Queues] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=DFXNYI0iy1g&t=4s
             https://www.youtube.com/watch?v=RCb9oidcPfM
             https://www.youtube.com/watch?v=rVx8xKisbr8
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/Jobs
 
-        Examples:
+        Video Examples:
 
-    //Seeding (Model Factories): [Database]
-        Links:
+    ///Seeding (Model Factories): [Database] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=s37i5W1Bzp8&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=37
             https://www.youtube.com/watch?v=U5gxiPNcSZU&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=38
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/SeedingModelFactories
 
-        Examples:
+        Video Examples:
             php artisan tinker
             User::all()->pluck('name');
             factory(\App\User::class)->create();
@@ -217,23 +252,25 @@ Today and Tomorrow Task:
 
         Examples:
 
-    /Sending Emails: [Mail]
-        Links:
+    //Sending Emails: [Mail] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=gtMXs9a1e0Y
             https://www.youtube.com/watch?v=upKOwoe8LsM
             https://www.youtube.com/watch?v=5DREuAvFnps
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/SendingEmails
 
-        Examples:
+        Video Examples:
 
-    //Even and Listener: [Events]
-        Links:
+    ///Event and Listener: [Events] => Notes Added
+        Important Links:
             https://www.youtube.com/watch?v=6wZKwJQF7Is&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=28&t=14s
 
-        Documentation:
+        Documentation Notes Path:
+            LaravelCertification-MainNotes/EvenAndListener
 
-        Examples:
+        Video Examples:
             => If New Customer is Register than we can Send a Mail By Event and Listeners
                 php artisan make:mail WelcomeNewUserMail --markdown emails.new-welcome
 
@@ -294,8 +331,63 @@ Today and Tomorrow Task:
 
 4. Check the Working Examples Of Each Concepts In Current Build Project
 
+5. All the Laravel Command we can mention here 
+    - 4-NewJobsByMay/Laravel Commands
+    - 4-NewJobsByMay/LaravelFeaturesDiggingDeeper
+
+    Documentation:
+        myQuestionsAndAnswers/LaravelQueue
+        LaravelCertification-MainNotes/EvenAndListener
+
+    Directory Followup:-
+        Important Links:
+        Video Examples:
+        Documentation Notes Path:
+        Laravel Documentation:
+
+        ===============================================
+
+        //ArtisanConsole
+        //LaravelSupervisor
+        //LaravelFacades
+        //LaravelMiddleware
+        //LaravelQueue
+
+        //ServiceContainer
+        //ServiceProviders
+        //Contracts
+        //Policy
+        //Jobs
+        //SeedingModelFactories
+        //SendingEmails
+        //EvenAndListener
+        ---------------------------------------
+        LaravelCollection => Next Comming Session
+        LaravelLogs
+        LaravelsoftDeleting
+
+        LaravelEloquentModel
+        LaravelDBQuery
+        Localization
+        TaskScheduling
+        LazyLoadingVsEagerLoading
+        LaravelCollections
+        Broadcasting
+        ErrorHandlingAndLogging
+        --------------------------
+        AboutHelperFunction
+        LaravelHelperFunctions
+        Auth0 Configuration
+        CommonQuestions
+
+        LaravelCommands
+
+        QuestionAndAnswers1
+        QuestionAndAnswers2
+        QuestionAndAnswers3
+
 Next Week Plan:
-    1. Finish Pending Advance Concepts:
+    1. Finish Pending Advance Concepts: [19/20]
         Laravel Eloquent Model: [Eloquent ORM]
         Laravel DB Query: [Database]
         Localization: [Frontend]
@@ -305,20 +397,22 @@ Next Week Plan:
         Broadcasting: [Websockets]
         Error Handling & Logging: [Logging]
 
-    2. Testing TDD and its QandA, Commands
+    2. In Between Update the "Laravel Versions" Notes: [21/22]
 
-    3. Laravel API Development
-
-    4. Laravel All Its Packages and its Usage
-
-    5. OOP's QnadA and all Its Concepts with Examples
+    3. OOP's QnadA and all Its Concepts with Examples: [23/24]
         php oops concepts
 
-    6. Align the Projects => Laravelv58/project-info/latestProjectHandling.php
+    4. Laravel API Development
 
-    7. Design Patterns In Laravel and PHP
+    5. Testing TDD and its QandA, Commands
 
-    8. Lead and its Responsibilities (how to become leader in web development)
+    6. Laravel All Its Packages and its Usage
+
+    7. Align the Projects => Laravelv58/project-info/latestProjectHandling.php
+
+    8. Design Patterns In Laravel and PHP
+
+    9. Lead and its Responsibilities (how to become leader in web development)
         - Code Analyzing / Code Optimizing
         - Guiding Juniors
         - Conducting Meetings
