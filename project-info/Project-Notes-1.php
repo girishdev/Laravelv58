@@ -235,12 +235,15 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
 
         factory(App\Company::class, 3)->create();
 
+        factory(App\Customer::class, 50)->create();
+
         $company = Company::factory()->create();
         // Create three App\User instances...
         $company = factory(App\Company::class, 3)->make();
         ---------------------------------
         https://kaloraat.com/articles/generate-fake-data-using-faker-and-factory-in-laravel
             php artisan make:seeder CompanyTableSeeder
+            
 
         For faker Examples:
             https://github.com/fzaninotto/Faker#table-of-contents
@@ -251,7 +254,10 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
                 Or
                 php artisan make:factory CompanyFactory --model=Company
 
+                => php artisan make:factory CustomerFactory -m Customer
+
                 php artisan make:seeder CompanyTableSeeder
+                php artisan make:seeder CustomerSeeder
 
                 php artisan db:seed
 
@@ -286,7 +292,8 @@ Laravel 5.8 - From The Ground Up: [Git Repository:- https://github.com/girishdev
     Laravel 5.8 Tutorial From Scratch - e47 - Eloquent Relationships Many To Many (BelongsToMany)
 
     Laravel 5.8 Tutorial From Scratch - e48 - Eloquent Relationships Many To Many Part 2 (BelongsToMany)
-
+    pivot
+    
     Laravel 5.8 Tutorial From Scratch - e49 - Testing 101 Using PHPUnit
 
     Laravel 5.8 Tutorial From Scratch - e50 - SEO Friendly URLs

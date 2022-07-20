@@ -29,7 +29,10 @@ class CustomersController extends Controller
         // $inactiveCustomers = Customer::where('status' , 0)->get();
 
         // Fetching all the Customer
-         $customers = Customer::all();
+         // $customers = Customer::all();
+        // $customers = Customer::with('company')->get();
+        $customers = Customer::with('company')->paginate(15);
+        // dd($customers->toArray());
 
         // Passing data in Array from
         /* return view('internals.customers', [

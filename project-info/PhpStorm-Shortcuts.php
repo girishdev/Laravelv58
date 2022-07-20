@@ -29,6 +29,8 @@ Ctrl + NumPad(+) => Expand All
 Alt + Shift + 1 => Opens file path on left side
 Alt + 1 => Open/Hide Left folder section
 
+Alt + right/left arrow to jump between Terminal: tabls 
+
 To navigate between code blocks, press Ctrl+[ or Ctrl+].
 
 

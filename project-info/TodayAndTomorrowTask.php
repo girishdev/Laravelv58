@@ -388,31 +388,134 @@ Today and Tomorrow Task:
 
 Next Week Plan:
     1. Finish Pending Advance Concepts: [19/20]
-        Laravel Eloquent Model: [Eloquent ORM]
-        Laravel DB Query: [Database]
-        Localization: [Frontend]
-        Task Scheduling: [Task Scheduling]
-        Lazy Loading vs. Eager Loading (Fixing N + 1 Problem): [Eloquent ORM]
+        // Laravel Eloquent Model: [Eloquent ORM]
+        // Laravel DB Query: [Database]
+        // Lazy Loading vs. Eager Loading (Fixing N + 1 Problem): [Eloquent ORM]
+        // Telescope
+        // Pagination
+        // Policies
+        // Localization: [Frontend]
+
+        // Task Scheduling: [Task Scheduling]
+            https://www.youtube.com/watch?v=_NoWp58pHa4&t=32s
         Collections: [Collections]
+
         Broadcasting: [Websockets]
         Error Handling & Logging: [Logging]
 
     2. In Between Update the "Laravel Versions" Notes: [21/22]
+        // LaravelVersion5.1.docx
+        // LaravelVersion5.2.docx
+        // LaravelVersion5.3.docx
+        // LaravelVersion5.4.docx
+        // LaravelVersion5.5.docx
+        // LaravelVersion5.6.docx
+        // LaravelVersion5.7.docx
+        // LaravelVersion5.8.docx
+        // LaravelVersion6.0.docx
+        // LaravelVersion7.0.docx
+        // LaravelVersion8.0.docx
+        // LaravelVersion9.0.docx
 
-    3. OOP's QnadA and all Its Concepts with Examples: [23/24]
+    3. PhpStorm:
+        https://www.youtube.com/watch?v=EwL_1wbg-rQ
+        https://www.youtube.com/watch?v=p034GB87hFA
+        https://www.youtube.com/watch?v=AHK20LWEWXQ&list=PLQ176FUIyIUbfeFz-2EbDzwExRlD0Bc-w
+        https://www.youtube.com/watch?v=C6YzTnoGdjw&t=693s
+        https://www.youtube.com/watch?v=pbQFMwWINJ8&list=PLrIm-p2rpV0HMYSD0fGDpL_jsmqhBElvG&index=9
+
+    4. OOP's QnadA and all Its Concepts with Examples: [23/24]
         php oops concepts
+            https://www.valuebound.com/resources/blog/object-oriented-programming-concepts-php-part-1
+            https://www.valuebound.com/resources/blog/object-oriented-programming-concepts-php-part-2
+            https://www.w3schools.com/php/php_oop_classes_objects.asp
+            https://www.tutorialspoint.com/php/php_object_oriented.htm
+            https://www.guru99.com/object-oriented-programming.html
 
-    4. Laravel API Development
+            ***https://www.guru99.com/error-handling-and-exceptions.html
 
-    5. Testing TDD and its QandA, Commands
+            https://www.simplilearn.com/tutorials/php-tutorial/oops-in-php
 
-    6. Laravel All Its Packages and its Usage
+            https://www.phptutorial.net/php-oop/
+                Section 1. Objects & Classes
+                    Objects & Classes – learn the basic concepts of OOP including objects and classes.
+                    The $this keyword – help you understand PHP $this keyword and how to use it effectively.
+                    Access Modifiers: public vs. private – explain to you the access modifiers in PHP and help you understand the differences between the private and public access modifiers.
 
-    7. Align the Projects => Laravelv58/project-info/latestProjectHandling.php
+                Section 2. Constructor and Destructor
+                    Constructor – explain to you the constructor concept and how to use it to initialize attributes.
+                    Destructor – learn how to use destructor to clean resources when the object is deleted.
 
-    8. Design Patterns In Laravel and PHP
+                Section 3. Properties
+                    Typed Properties – show you how to add type hints to class properties.
+                    Readonly Properties – use the readonly keyword to define readonly properties that can be initialized once within the class.
 
-    9. Lead and its Responsibilities (how to become leader in web development)
+                Section 4. Inheritance
+                    Inheritance – how to extend a class for code reuse.
+                    Call the parent constructor – show you how to call the parent constructor from a child class’s constructor.
+                    Overriding method – guide you on how to override a parent class’s method in the child class.
+                    Protected Access Modifier – explain the protected access modifier and how to use protected properties and methods effectively.
+
+                Section 5. Abstract classes
+                    Abstract Class – guide you on abstract classes and how to use them effectively.
+
+                Section 6. Interfaces
+                    Interface – explain to you the interface concept and how to create interfaces.
+
+                Section 7. Polymorphism
+                    Polymorphism – explain the polymorphism concept and show you how to implement polymorphism in PHP using abstract classes or interfaces.
+
+                Section 8. Traits
+                    Traits – introduce you to traits.
+
+                Section 9. Static methods & properties
+                    Static Methods and Properties – show you how to use static methods and properties.
+                    Class constants – learn how to define class constants using the const keyword.
+                    Late Static Binding – introduce the late static binding concept and how to use it effectively.
+
+                Section 10. Magic Methods
+                    Magic methods – understand how the magic methods work in PHP.
+                    __toString() – return the string representation of an object.
+                    __call() – show you how to use the __call() magic method.
+                    __callStatic() – show you how to use the __calStatic() magic method.
+                    __invoke() – learn how to define a function object or function by implementing the __invoke() magic method.
+
+                Section 11. Working with Objects
+                    Serialize Objects– use the serialize() function to serialize an object into a binary string and how to use the __serialize() and __sleep() magic methods
+                    Unserialize Objects – guide you on how to use the unserialize() function to convert a serialized string into an object. Also, discuss the __wakeup() and __unserialize() magic methods.
+                    Cloning Objects – show you how to copy an object.
+                    Comparing Objects – how to compare two objects.
+                    Anonymous class – learn how to define a class without a declared name.
+
+                Section 12. Namespaces
+                    Namespace – learn how to use namespaces to group the related classes.
+
+                Section 13. Autoloading
+                    Autoloading Class files – learn how to load classes automatically.
+                    Autoloading using Composer – show you how to use Composer to autoload classes.
+
+                Section 14. Exception Handling
+                    try…catch – show you how to use the try…catch statement to handle exceptions that may occur in your script.
+                    try…catch…finally – learn how to clean up the resources when an error occurs using the finally block.
+                    Throw an exception – guide you on how to throw an exception using the throw statement.
+                    Set an Exception Handler – show you how to use the set_exception_handler function to set a global exception handler to catch the uncaught exceptions.
+
+                Section 15. Class / Object Functions
+                    class_exists – return true if a class exists
+                    method_exists – return true if an object or a class has a specific method.
+                    property_exists – return true if an object or a class has a specific property.
+
+    5. Laravel API Development
+
+    6. Testing TDD and its QandA, Commands
+
+    7. Laravel All Its Packages and its Usage
+
+    8. Align the Projects => Laravelv58/project-info/latestProjectHandling.php
+
+    9. Design Patterns In Laravel and PHP
+
+    10. Lead and its Responsibilities (how to become leader in web development)
         - Code Analyzing / Code Optimizing
         - Guiding Juniors
         - Conducting Meetings
@@ -421,16 +524,23 @@ Next Week Plan:
         - Building Architecture Of The Project
 
 Morning Practice On Board:
-    1. Laravel Commands
+    1. Laravel Artisan Commands
+        Laravel Normal Project Commands - (To Build Project Based Commands)
+        Laravel Databases Migration and "Available Column Types"
+        Query Builder
+        Database Seeding Commands
+        Eloquent ORM
+        Eloquent Relationships
+        Eloquent Collections
 
     2. Laravel Advance Concepts
-    With QandA / Definition
-    With Examples
+        With QandA / Definition
+        With Examples
 
     3. MYSQL Commands
-    With Advance Concepts
-    With Queries
-    With Terminal Commands
+        With Advance Concepts
+        With Queries
+        With Terminal Commands
 
     4. Ubuntu Commands
 

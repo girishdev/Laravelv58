@@ -141,190 +141,187 @@ echo "Third week Summary:
 
         // What's New in Laravel 5.4 => 10 (32m)
             https://laracasts.com/series/whats-new-in-laravel-5-4
-            Sanitizing Middleware
+                Sanitizing Middleware
+                    TrimStrings
+                    ConvertEmptyStringsToNull
 
-            TrimStrings
+                Higher Order Collection Messages
 
-            ConvertEmptyStringsToNull
+                Laravel Mix in a Nutshell
 
-            Higher Order Collection Messages
+                Fluent Routing
 
-            Laravel Mix in a Nutshell
+                Resourceful Controllers With Model Boilerplate
 
-            Fluent Routing
+                Blade Components and Slots
 
-            Resourceful Controllers With Model Boilerplate
+                Markdown Mailables
 
-            Blade Components and Slots
+                Real-Time Facades
 
-            Markdown Mailables
+                Browser Testing With Laravel Dusk
 
-            Real-Time Facades
-
-            Browser Testing With Laravel Dusk
-
-            Map Eloquent Events to Dedicated Classes
+                Map Eloquent Events to Dedicated Classes
 
         // What's New in Laravel 5.5 => 20 (1h 31m)
             https://laracasts.com/series/whats-new-in-laravel-5-5
-            Laravel 5.5 Installation and Whoops
+                Laravel 5.5 Installation and Whoops
 
-            Streamlined Request Validation
+                Streamlined Request Validation
 
-            Fresh Migrations
+                Fresh Migrations
 
-            Frontend Presets
+                Frontend Presets
 
-            Automatic Package Discovery
+                Automatic Package Discovery
 
-            Faster Email Layout Testing
+                Faster Email Layout Testing
 
-            Silky Smooth Custom Validation Rules
+                Silky Smooth Custom Validation Rules
 
-            Collection Dumping
+                Collection Dumping
 
-            Model Factory Generation
+                Model Factory Generation
 
-            Custom Blade 'If' Directives
+                Custom Blade 'If' Directives
 
-            What's New in Laravel Mix
+                What's New in Laravel Mix
 
-            Auto-Registering Artisan Commands
+                Auto-Registering Artisan Commands
 
-            Higher Order Tap
+                Higher Order Tap
 
-            The RefreshDatabase Trait
+                The RefreshDatabase Trait
 
-            New Blade Directives
+                New Blade Directives
 
-            Route Helpers
+                Route Helpers
 
-            Toggle Exception Handling Within Your Tests
+                Toggle Exception Handling Within Your Tests
 
-            Cleaner Exception Rendering
+                Cleaner Exception Rendering
 
-            Optional Objects
+                Optional Objects
 
-            API Resources
+                API Resources
 
         // What's New in Laravel 5.6 => 08 (37m)
             https://laracasts.com/series/whats-new-in-laravel-5-6
             https://laracasts.com/series/whats-new-in-laravel-5-6/episodes/2
-            Upgrading the Laracasts Codebase to Laravel 5.6
+                Upgrading the Laracasts Codebase to Laravel 5.6
 
-            Broadcast Channel Classes
+                Broadcast Channel Classes
 
-            Collision Reporting
+                Collision Reporting
 
-            Eloquent Date Casting
+                Eloquent Date Casting
 
-            Improved Logging... Even to Slack
+                Improved Logging... Even to Slack
 
-            Dynamic Rate Limiting
+                Dynamic Rate Limiting
 
-            Logout Other Devices
+                Logout Other Devices
 
-            API Controller Generator
+                API Controller Generator
 
         // What's New in Laravel 5.7 => 04 (22m)
             https://laracasts.com/series/whats-new-in-laravel-5-7
-            Email Verification
+                Email Verification
 
-            Dump Server
+                Dump Server
 
-            Improved Artisan Command Testing
+                Improved Artisan Command Testing
 
-            Smaller Additions
+                Smaller Additions
 
         // What's New in Laravel 5.8 => 05 (24m)
             https://laracasts.com/series/whats-new-in-laravel-5-8
-            Automatic Policy Discovery
+                Automatic Policy Discovery
 
-            Update Your Cache TTL
+                Update Your Cache TTL
 
-            Use the New Postmark Driver in One Minute
+                Use the New Postmark Driver in One Minute
 
-            New Mockery Testing Helpers
+                New Mockery Testing Helpers
 
-            Automatic Event Listener Discovery
+                Automatic Event Listener Discovery
 
         // What's New in Laravel 6 => 05 (35m)
             https://laracasts.com/series/whats-new-in-laravel-6
-            Lazy Collections
+                Lazy Collections
 
-            Ignition is Laravel's Amazing New Error Page
+                Ignition is Laravel's Amazing New Error Page
 
-            Frontend Scaffolding Has Been Moved to Laravel UI
+                Frontend Scaffolding Has Been Moved to Laravel UI
 
-            Eloquent Subquery Additions
+                Eloquent Subquery Additions
 
-            Password Reconfirmation
+                Password Reconfirmation
 
         // What's New in Laravel 7 => 06 (57m)
             https://laracasts.com/series/whats-new-in-laravel-7
-            Supercharged Blade Components
+                Supercharged Blade Components
+                    Variables can work in reverce direction as well
 
-            variables can work in reverce direction as well
+                Fluent String Manipulation
 
-            Fluent String Manipulation
+                Casting Eloquent Attributes to Value Objects
 
-            Casting Eloquent Attributes to Value Objects
+                Route Custom Keys With Scoping
 
-            Route Custom Keys With Scoping
+                The New HTTP Client
 
-            The New HTTP Client
-
-            Intro to Laravel Sanctum
+                Intro to Laravel Sanctum
 
         // What's New in Laravel 8 => 12 (59m)
             https://laracasts.com/series/whats-new-in-laravel-8
-            Preparing for Laravel 8
+                Preparing for Laravel 8
 
-            The New Models Directory
+                The New Models Directory
 
-            Squash a Massive Migrations Folder
+                Squash a Massive Migrations Folder
 
-            Class-Based Model Factories
+                Class-Based Model Factories
 
-            Model Factory Relationships
+                Model Factory Relationships
 
-            Maintenance Mode Secrets
+                Maintenance Mode Secrets
 
-            Cleaner Closure-Based Event Listeners
+                Cleaner Closure-Based Event Listeners
 
-            Wormholes
+                Wormholes
 
-            Improved Rate Limiting
+                Improved Rate Limiting
 
-            Jetstream
+                Jetstream
 
-            Upgrade the Laracasts Codebase to Laravel 8
+                Upgrade the Laracasts Codebase to Laravel 8
 
-            Laravel Sail
+                Laravel Sail
 
         // What's New in Laravel 9 => 11 (44m)
             https://laracasts.com/series/whats-new-in-laravel-9
-            Controller Route Groups
+                Controller Route Groups
 
-            Anonymous Migration Classes
+                Anonymous Migration Classes
 
-            New Helper Functions
+                New Helper Functions
 
-            Refreshed Ignition Error Page
+                Refreshed Ignition Error Page
 
-            Render a Blade String
+                Render a Blade String
 
-            Forced Scope Bindings
+                Forced Scope Bindings
 
-            Test Coverage with XDebug
+                Test Coverage with XDebug
 
-            Laravel Scout Database Engine
+                Laravel Scout Database Engine
 
-            Full Text Indexing
+                Full Text Indexing
 
-            Enum Attribute Casting
+                Enum Attribute Casting
 
-            Simplified Accessors and Mutators
+                Simplified Accessors and Mutators
 
         Laravel Packages
             Breeze
