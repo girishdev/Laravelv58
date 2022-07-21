@@ -416,7 +416,7 @@ Next Week Plan:
         // LaravelVersion7.0.docx
         // LaravelVersion8.0.docx
         // LaravelVersion9.0.docx
-
+    
     3. PhpStorm:
         https://www.youtube.com/watch?v=EwL_1wbg-rQ
         https://www.youtube.com/watch?v=p034GB87hFA
