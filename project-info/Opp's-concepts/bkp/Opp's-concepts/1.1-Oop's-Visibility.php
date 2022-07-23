@@ -42,6 +42,6 @@
 	//echo '<b>This is outside of the MyClass2:</b>'.$obj2->private; // Undefined
 	//echo '<b>This is outside of the MyClass2:</b>'.$obj2->protected; // Fatal Error
 	$obj2->printHello(); // Shows Public, Protected2, Undefined
-	/*---------------------------------------------------------------------------------------------------*/	
+	/*---------------------------------------------------------------------------------------------------*/
 
 ?>

@@ -399,6 +399,8 @@ Next Week Plan:
         // Task Scheduling: [Task Scheduling]
             https://www.youtube.com/watch?v=_NoWp58pHa4&t=32s
         Collections: [Collections]
+            https://www.youtube.com/playlist?list=PLpzy7FIRqpGCCm3pJHtDKYHlHJclb9V9m
+            https://www.parthpatel.net/laravel-collection-methods-tutorial/
 
         Broadcasting: [Websockets]
         Error Handling & Logging: [Logging]
@@ -416,7 +418,7 @@ Next Week Plan:
         // LaravelVersion7.0.docx
         // LaravelVersion8.0.docx
         // LaravelVersion9.0.docx
-    
+
     3. PhpStorm:
         https://www.youtube.com/watch?v=EwL_1wbg-rQ
         https://www.youtube.com/watch?v=p034GB87hFA
@@ -424,7 +426,7 @@ Next Week Plan:
         https://www.youtube.com/watch?v=C6YzTnoGdjw&t=693s
         https://www.youtube.com/watch?v=pbQFMwWINJ8&list=PLrIm-p2rpV0HMYSD0fGDpL_jsmqhBElvG&index=9
 
-    4. OOP's QnadA and all Its Concepts with Examples: [23/24]
+    4. OOP's QandA and all Its Concepts with Examples: [23/24]
         php oops concepts
             https://www.valuebound.com/resources/blog/object-oriented-programming-concepts-php-part-1
             https://www.valuebound.com/resources/blog/object-oriented-programming-concepts-php-part-2
@@ -504,6 +506,12 @@ Next Week Plan:
                     class_exists – return true if a class exists
                     method_exists – return true if an object or a class has a specific method.
                     property_exists – return true if an object or a class has a specific property.
+
+        Laravel Blog Project and Its Description: (We can Follow same kind of Description for other projects as well)
+            https://www.section.io/engineering-education/laravel-beginners-guide-blogpost/
+            https://www.flowkl.com/tutorial/web-development/simple-blog-application-in-laravel-7/
+            https://laraveltuts.com/
+            https://www.flowkl.com/tutorial/web-development/view-in-laravel-5/
 
     5. Laravel API Development
 
