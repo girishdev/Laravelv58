@@ -11,6 +11,7 @@ git status
 git add file.php
 
 git commit -m "Taken DB Bkp and Other code"
+git commit -m "Added OOP Concepts into git"
 git push origin master
 
 If you want to Remove Git Folder which are commited to Git
