@@ -22,26 +22,27 @@
 	$bar -> printItem('baz');
 	$bar -> printPHP();
 	echo '<br />';echo '<br />';
+    exit;
 	/*---------------------------------------------------------------------------------------------------*/
 	echo '<h3>ClassInheritance / extends:</h3>';
 	class classone {
 		function Myfunone() {
-			
+
 		}
 	}
-	
+
 	class classtwo extends classone {
 		function Myfuntwo() {
 			echo "This is First Parent class: ".get_parent_class($this);
 		}
 	}
-	
+
 	class classthree extends classtwo {
 		function Myfunthree() {
 			echo "This is Second Parent class: ".get_parent_class($this);
 		}
 	}
-	
+
 	if(class_exists('classone')){
 		$obj1 = new classtwo();
 		$obj1->Myfuntwo();
@@ -52,25 +53,25 @@
 		echo 'Necessary class does not exist: ';
 	}
 	echo '<br />';echo '<br />';
-	/*---------------------------------------------------------------------------------------------------*/	
+	/*---------------------------------------------------------------------------------------------------*/
 	class classones {
 		function Myfunone() {
-			
+
 		}
 	}
-	
+
 	class classtwo2 extends classones {
 		function Myfuntwo() {
 			echo "This is First Parent class: ".get_parent_class($this);
 		}
 	}
-	
+
 	class classthree2 extends classtwo2 {
 		function Myfunthree() {
 			echo "This is Second Parent class: ".get_parent_class($this);
 		}
 	}
-	
+
 	if(class_exists('classones')){
 		$obj1 = new classtwo2();	//Creating an object
 		$obj1->Myfuntwo();
@@ -81,10 +82,10 @@
 		echo 'Necessary class does not exist: ';
 	}
 	echo '<br />';echo '<br />';
-	/*---------------------------------------------------------------------------------------------------*/		
+	/*---------------------------------------------------------------------------------------------------*/
 //Inheritance:-
 	//inheritance allow a class to extend
-	//another class and inherit all its methos,
+	//another class and inherit all its methods,
 	//properties and behaviors.
 
 	//Creating Super Class
@@ -165,6 +166,6 @@
 
 	$pr= new MyNewClass(5,20,10,20);
 	$pr->findSumFour();
-	/*---------------------------------------------------------------------------------------------------*/		
+	/*---------------------------------------------------------------------------------------------------*/
 
 ?>

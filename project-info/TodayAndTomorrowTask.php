@@ -554,26 +554,7 @@ Morning Practice On Board:
 
     5. PhpStorm Commands
 
-Resume Update / Job Preparation:
-    1. Updated Resume If Needed
-        Apache And Nginx Server, Amazon Web Services (EC2, S3)
 
-    2. Job Portal:
-        https://larajobs.com/
-        https://www.turing.com/
-        https://www.naukri.com/
-        https://www.linkedin.com/jobs/
-        https://www.glassdoor.co.in/index.html
-        https://in.indeed.com/
-
-    3. Description The Project Shortly and Project Outcome
-
-    4. what Laravel version you have used?
-
-    5. Mention Plus Points:
-        Laravel Certification
-        Working as a Team Lead Proxy
-        Teaching Juniors
 
 
 

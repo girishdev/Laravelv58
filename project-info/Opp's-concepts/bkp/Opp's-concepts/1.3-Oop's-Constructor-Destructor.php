@@ -16,8 +16,8 @@
 	$Obj = new SubClass();
 	echo '<br />';echo '<br />';
 
-	/*---------------------------------------------------------------------------------------------------*/	
-	
+	/*---------------------------------------------------------------------------------------------------*/
+
 	echo '<h3>Constructors and Property:</h3>';
 	class MyClass5 {
 		public $first; //properties
@@ -85,13 +85,13 @@
 	echo '<h3>Destructors:</h3>';
 	class Animal {
 		public $name = "No-name animal";
-		
+
 		public function __construct($name)
 		{
-			echo "I'm alive!<br />";    
+			echo "I'm alive!<br />";
 			$this->name = $name;
 		}
-		
+
 		public function __destruct()
 		{
 			echo "I'm dead now :(";

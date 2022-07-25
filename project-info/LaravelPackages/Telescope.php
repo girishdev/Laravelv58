@@ -5,7 +5,7 @@ Introduction
 
 Installation
 	- composer require laravel/telescope "2.1.7"
-	- php artisan telescope:install	 
+	- php artisan telescope:install
 	- php artisan migrate
 
 	Updating Telescope

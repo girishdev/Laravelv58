@@ -19,7 +19,6 @@
  * 	- You can also extend interface like class. You can extend interface in php using extends keyword.
  *	- You can not implement 2 interfaces if both share function with same name. It will throw error.
  *
- *
  */
 
 class Object_Inheritance {

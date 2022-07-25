@@ -1,13 +1,57 @@
-Cover Php Advance Topics:
-    php closure function
+Cover PHP Advance Topics:
+    PHP OOP's:
 
-    php closure vs callable
+    Laravel Relations:
+
+    Laravel Version Notes:
+
+    Resume Topic Preparation:
+        1. Updated Resume If Needed
+            Apache And Nginx Server, Amazon Web Services (EC2, S3)
+
+        2. Job Portal:
+            https://larajobs.com/
+            https://www.turing.com/
+            https://www.naukri.com/
+            https://www.linkedin.com/jobs/
+            https://www.glassdoor.co.in/index.html
+            https://in.indeed.com/
+
+        3. Description The Project Shortly and Project Outcome
+
+        4. what Laravel version you have used?
+
+        5. Mention Plus Points:
+            Laravel Certification
+            Working as a Team Lead Proxy
+            Teaching Juniors
+
+    PHP closure function:
+        PHP closure vs callable
 
     Testing TDD & QandA, All its Commands
 
     Laravel API Development
 
     Laravel Packages and Its Usages and Its Important Points to be Noted
+        Breeze
+        Cashier (Stripe)
+        Cashier (Paddle)
+        Dusk
+        Envoy
+        Fortify
+        Homestead
+        Horizon
+        Jetstream
+        Mix
+        Octane
+        Passport
+        Sail
+        Sanctum
+        Scout (Full Test Search On Eloquent Modules)
+        Socialite
+        // Telescope
+        Valet
 
     Laravel how to use Redis
 
@@ -21,5 +65,5 @@ Cover Php Advance Topics:
     How can we do Migration(Adding Extra Filed) when we pushed to production Server
 
 Question:
-What is Reflection and how it is working?
-https://www.educba.com/php-reflection/
+    What is Reflection and how it is working?
+    https://www.educba.com/php-reflection/
