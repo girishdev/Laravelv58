@@ -21,7 +21,7 @@ OOP Topic's:
         => Opp's-concepts/1.1-Oop's-Visibility.php
         => oop2018/2_Properties_Visibility.php
 
-	5.Interfaces: [5-interfaces.php]
+	// 5.Interfaces: [5-interfaces.php]
         => Opp's-concepts/1.7-Oop's-Interfaces.php
         => oop2018/10_Object_Interfaces.php
 

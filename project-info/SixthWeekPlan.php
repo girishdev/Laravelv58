@@ -1,11 +1,11 @@
 Cover PHP Advance Topics:
-    PHP OOP's:
+    PHP OOP's: [26th]
 
-    Laravel Relations:
+    Laravel Relations: [27th]
 
-    Laravel Version Notes:
+    Laravel Version Notes: [28th]
 
-    Resume Topic Preparation:
+    Resume Topic Preparation: [29th]
         1. Updated Resume If Needed
             Apache And Nginx Server, Amazon Web Services (EC2, S3)
 
@@ -33,7 +33,7 @@ Cover PHP Advance Topics:
 
     Laravel API Development
 
-    Laravel Packages and Its Usages and Its Important Points to be Noted
+    Laravel Packages and Its Usages and Its Important Points to be Noted: [29th]
         Breeze
         Cashier (Stripe)
         Cashier (Paddle)
