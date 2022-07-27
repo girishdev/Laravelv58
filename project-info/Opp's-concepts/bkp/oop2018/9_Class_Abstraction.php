@@ -20,9 +20,9 @@
 	- It can only act as parent class of any normal class. You can use abstract class in class hierarchy.
 	- Mean one abstract class can inherit another abstract class also.
 	- Private methods cannot be abstract
-		If a method is defined as abstract then it cannot be declared as private 
+		If a method is defined as abstract then it cannot be declared as private
 		(it can only be public or protected).
-		This is because a private method cannot be inherited. 
+		This is because a private method cannot be inherited.
 /**/
 
 abstract class AbstractClass {

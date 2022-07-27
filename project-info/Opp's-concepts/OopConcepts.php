@@ -25,7 +25,7 @@ OOP Topic's:
         => Opp's-concepts/1.7-Oop's-Interfaces.php
         => oop2018/10_Object_Interfaces.php
 
-	6.Abstract classes: [6-abstractClasses.php]
+	// 6.Abstract classes: [6-abstractClasses.php]
         => Opp's-concepts/1.6-Oop's-Abstraction.php
         => oop2018/9_Class_Abstraction.php
 
