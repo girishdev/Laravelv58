@@ -5,6 +5,9 @@ weeklySummary:
 	4. FifthWeekPlan.php (4th and 5th Week)
 	5. TodayAndTomorrowTask.php
 	6. SixthWeekPlan.php
+	7. SeventhWeekPlan.php
+	8. EightWeekPlan.php
+	9. NinthWeekPlan.php
 
 	Latest: TodayAndTomorrowTask.php
 

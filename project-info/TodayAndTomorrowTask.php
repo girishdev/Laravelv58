@@ -531,28 +531,6 @@ Next Week Plan:
         - Designing Flow Charts
         - Building Architecture Of The Project
 
-Morning Practice On Board:
-    1. Laravel Artisan Commands
-        Laravel Normal Project Commands - (To Build Project Based Commands)
-        Laravel Databases Migration and "Available Column Types"
-        Query Builder
-        Database Seeding Commands
-        Eloquent ORM
-        Eloquent Relationships
-        Eloquent Collections
-
-    2. Laravel Advance Concepts
-        With QandA / Definition
-        With Examples
-
-    3. MYSQL Commands
-        With Advance Concepts
-        With Queries
-        With Terminal Commands
-
-    4. Ubuntu Commands
-
-    5. PhpStorm Commands
 
 
 

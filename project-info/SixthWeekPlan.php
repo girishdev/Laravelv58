@@ -1,12 +1,11 @@
 Cover PHP Advance Topics:
-    PHP OOP's: [26th]
-    2,562
+    // PHP OOP's: [26th]
 
-    Laravel Relations: [27th]
+    // Laravel Relations: [27th]
 
     Laravel Version Notes: [28th]
 
-    Resume Topic Preparation: [29th]
+    // Resume Topic Preparation: [29th]
         1. Updated Resume If Needed
             Apache And Nginx Server, Amazon Web Services (EC2, S3)
 
@@ -26,6 +25,10 @@ Cover PHP Advance Topics:
             Laravel Certification
             Working as a Team Lead Proxy
             Teaching Juniors
+            Working as a Full-stack Developer
+                BackEnd: Laravel, PHP(OOP's), MYSQL, YII2, JavaScript, AWS, MongoDB, API's
+                FrontEnd: HTML, CSS, Bootstrap, jQuery, Ajax [VueJs]
+                Others: GIT, Docker, Ubuntu Server(SSH), Apache And NGINX Server, PhpStorm, VS Code
 
     PHP closure function:
         PHP closure vs callable
@@ -34,7 +37,7 @@ Cover PHP Advance Topics:
 
     Laravel API Development
 
-    Laravel Packages and Its Usages and Its Important Points to be Noted: [29th]
+    // Laravel Packages and Its Usages and Its Important Points to be Noted: [29th]
         Breeze
         Cashier (Stripe)
         Cashier (Paddle)
