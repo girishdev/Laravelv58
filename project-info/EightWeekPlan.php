@@ -10,23 +10,4 @@
 
 5. PHP Version
 
-6. Paper Work:
-	Artisan Console-4
-	Caching-5
-	Collections-3
-	Controllers-7
-	Database-4
-	Eloquent ORM-7
-
-	File Storage-3
-	Helper Methods-5
-	Routing-6
-
-	Sessions-6
-	Task Scheduling-6
-	Testing-8
-
-	URL Generation-3
-	Validation-5
-	Views-3
 

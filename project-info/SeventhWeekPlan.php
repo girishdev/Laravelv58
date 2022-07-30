@@ -1,12 +1,25 @@
 1. OOP Concepts - Refresh All The Concepts
+	https://laraveldaily.com/advanced-laravel-20-topics-and-links-to-learn-them/
 
-2. Morning Practice On Board:
-    1. Laravel Artisan Commands
-        Database: Query Builder
-        Database Seeding Commands
-        Eloquent ORM
-        Eloquent Relationships
-        Eloquent Collections
+2. Morning Practice On Board / Paper Work:
+    2.1. Artisan Console-4
+		Caching-5
+		Collections-3
+		Controllers-7
+		Database-4 (Database: Query Builder)
+		Eloquent ORM-7
+
+		File Storage-3
+		Helper Methods-5
+		Routing-6
+
+		Sessions-6
+		Task Scheduling-6
+		Testing-8
+
+		URL Generation-3
+		Validation-5
+		Views-3
 
         Project Bases Commends:-
 	        Laravel Normal Project Commands - (To Build Project Based Commands)
@@ -22,18 +35,21 @@
                     -> Sending emails and notifications
                     -> Events and Listeners
 
-    2. Laravel Advance Concepts
+        Write an OOP Concepts On Paper and Practice Board
+        	-> short form of all the concepts
+
+    2.2. Laravel Advance Concepts
         With QandA / Definition
         With Examples
 
-    3. MYSQL Commands
+    2.3. MYSQL Commands
         With Advance Concepts
         With Queries
         With Terminal Commands
 
-    4. Ubuntu Commands
+    2.4. Ubuntu Commands
 
-    5. PhpStorm Commands
+    2.5. PhpStorm Commands
 
 3. Laravel Packages (List down all the Links and start Learning): 18 Videos
     1. Breeze: https://laravel.com/docs/9.x/starter-kits#laravel-breeze
@@ -127,7 +143,9 @@
 	    https://www.youtube.com/watch?v=roIwpzT8xrQ&list=PLEhEHUEU3x5pcQJHE8WBLqlHt2o3q5O-f
 	    https://www.youtube.com/watch?v=7LkYpwVPSiE&list=PLe30vg_FG4ORrveWqHjn-9C5sn5mUP815
 
-4. Objective Type Question
+4. Objective Type Question: 
+	[Laravel-ObjectiveTypeQuestions, PHP-ObjectiveTypeQuestions, jQuery-ObjectiveTypeQuestions
+	Mysql-ObjectiveTypeQuestions and etc...]
 	https://www.interviewmocks.com/laravel-mcq-multiple-choice-questions/
 	https://www.onlineinterviewquestions.com/laravel-mcq-multiple-choice-questions/
 	https://mcqpoint.com/mcq/laravel/
@@ -167,6 +185,8 @@
 		https://www.youtube.com/watch?v=pIGy7-7gGXI
 		https://www.youtube.com/watch?v=mDnsC-sfG7I&t=2s
 		https://www.youtube.com/watch?v=rNOGLLPXzwc
+
+6. Design Patterns In Laravel and PHP
 
 
 

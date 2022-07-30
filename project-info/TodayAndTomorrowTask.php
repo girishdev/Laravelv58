@@ -521,9 +521,7 @@ Next Week Plan:
 
     8. Align the Projects => Laravelv58/project-info/latestProjectHandling.php
 
-    9. Design Patterns In Laravel and PHP
-
-    10. Lead and its Responsibilities (how to become leader in web development)
+    9. Lead and its Responsibilities (how to become leader in web development)
         - Code Analyzing / Code Optimizing
         - Guiding Juniors
         - Conducting Meetings

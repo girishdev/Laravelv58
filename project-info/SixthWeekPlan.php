@@ -1,11 +1,11 @@
 Cover PHP Advance Topics:
-    // PHP OOP's: [26th]
+    // PHP OOP's:
 
-    // Laravel Relations: [27th]
+    // Laravel Relations:
 
-    Laravel Version Notes: [28th]
+    // Laravel Version Notes:
 
-    // Resume Topic Preparation: [29th]
+    // Resume Topic Preparation:
         1. Updated Resume If Needed
             Apache And Nginx Server, Amazon Web Services (EC2, S3)
 
@@ -27,8 +27,19 @@ Cover PHP Advance Topics:
             Teaching Juniors
             Working as a Full-stack Developer
                 BackEnd: Laravel, PHP(OOP's), MYSQL, YII2, JavaScript, AWS, MongoDB, API's
+
                 FrontEnd: HTML, CSS, Bootstrap, jQuery, Ajax [VueJs]
+
                 Others: GIT, Docker, Ubuntu Server(SSH), Apache And NGINX Server, PhpStorm, VS Code
+
+        6. From 1st/August TO 10th/August: (Increase CTC Bases On Market Demand)
+            => Expected CTC is 14 Lakhs (I am excepting around)
+
+            From 11th/August TO 20th/August: (Increase CTC Bases On Market Demand)
+            => Expected CTC is 16 Lakhs (I am excepting around)
+
+            From 21th/August TO 30th/August: (Increase CTC Bases On Market Demand)
+            => Expected CTC is 20 Lakhs (I am excepting around)
 
     PHP closure function:
         PHP closure vs callable

@@ -29,20 +29,18 @@ OOP Topic's:
         => Opp's-concepts/1.6-Oop's-Abstraction.php
         => oop2018/9_Class_Abstraction.php
 
-	7.Static Methods and Properties: [7-staticMethodsAndProperties.php]
+	// 7.Static Methods and Properties: [7-staticMethodsAndProperties.php]
         => Opp's-concepts/
         => oop2018/3_Constants_Static.php
-        => https://www.phptutorial.net/php-oop/php-static-methods/
-        => https://www.geeksforgeeks.org/static-function-in-php/
 
-	8.Final Methods and Properties: [8-finalMethodsAndProperties.php]
+	// 8.Final Methods and Properties: [8-finalMethodsAndProperties.php]
         => Opp's-concepts/1.2-Oop's-Constants-Final-Static.php
 
 	9.Delete Objects In OOP: => [9-deleteObjectsInOop.php]
         => Opp's-concepts/
         => https://www.youtube.com/watch?v=xeKc5VGUkPM
 
-	10.Overloading and Overriding: [10-overloadingAndOverriding.php]
+	// 10.Overloading and Overriding: [10-overloadingAndOverriding.php]
         => Opp's-concepts/1.9-Oop's-Overloading-Overriding.php
         => oop2018/12_Overloading_Overriding.php
 
