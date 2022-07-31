@@ -1,3 +1,323 @@
+Link: https://www.interviewmocks.com/laravel-mcq-multiple-choice-questions/
 1. The _______ directory contains your project’s cache, session and log data.
-=> Storage
+A. Database
+B. Public
+C. Resources
+D. Storage (Correct)
+
+2) Laravel is based on _____________________
+A. MVVM Design Pattern
+B. Composite Design Pattern
+C. Singleton Design Pattern
+D. MVC Design Pattern (Correct)
+
+3) Which one Laravel command line interface?
+A. composer
+B. php artisan (Correct)
+C. git
+D. CLI
+
+4) Which of following command is used to remove the compiled class file in Laravel?
+A. php artisan clear-compiled (Correct)
+B. php artisan down
+C. php artisan clear-class
+D. php artisan inspire
+
+5) How to define an mutator in Laravel?
+A. setNameAttribute method inside model (Correct)
+B. setNameAttribute method inside controller
+C. setMutator method inside controller
+
+6) Does Laravel Support Caching?
+A. Yes (Correct)
+B. No
+
+7) Where do we need to set database connection in Laravel?
+A. config.php
+B. setting.php
+C. .ENV file (Correct)
+D. In seed files
+
+8) What would this touch() function do? $obj= User::find(1); $obj->touch();
+A. store a user object in cache
+B. created a new filed in database
+C. update updated_at to current timestamp (Correct)
+D. None of the Above
+
+9) Which command is used to start laravel server?
+A. php artisan serve (Correct)
+B. php artisan project_name
+C. php artisan start php
+D. artisan start-server
+
+10) Which command is used to create a new project in Laravel?
+A. php composer.phar create-project --pref-dist laravel/laravel lar-project "5.7.*"
+B. php composer.phar create-project --prefer-dist laravel/laravel lar-project "5.7.*" (Correct)
+C. php compose.phar create-project --prefer-dist laravel/laravel lar-project "5.7.*"
+D. php composer.phar create-project --prefer-di laravel/laravel lar-project "5.7.*"
+
+11) Composer is a tool for ______ in PHP.
+A. Interpolation
+B. configuration
+C. dependency management (Correct)
+D. None of the above
+
+12) What is it Blade?
+A. Template Engine (Correct)
+B. package
+C. view file
+D. framework
+
+13) Where is routing file located in Laravel?
+A. routes/ (Correct)
+B. public/
+C. view/
+D. None of the above
+
+14) Which command is used to create migrations in Laravel?
+A. php artisan make:migration create_users_table (Correct)
+B. php artisan make:migrate create_users_table
+C. php artisan migration create_users_table
+D. All are Correct
+
+15) The vendor directory contains ___.
+A. Third-party code (Correct)
+B. Configuration files
+C. Assets
+D. Laravel Framework code
+
+16) Which of following Collection method returns all records from Laravel collection?
+A. ->get()
+B. whereAll()
+C. ->where()
+D. ->all() (Correct)
+
+17) Which one of the follwing command is used to create middleware in Laravel?
+A. php artisan make: middleware (Correct)
+B. php artisan: middleware
+C. php arti make: middleware
+D. None of the above
+
+18) How to remove a complied class file?
+A. clear-compiled command (Correct)
+B. flush-compiled command
+C. cache-compiled command
+D. All are Correct
+
+19) What do you mean by dd() function?
+A. The full form of dd is Date and Day.
+B. The full form of dd is Directory and Door.
+C. The full form of dd is Diel and Deal.
+D. The full form of dd is Dump and Die. (Correct)
+
+20) Which of the following function in Laravel checks that the desired table is exists in the database or not?
+A. hasTable() (Correct)
+B. hasTab()
+C. hashTable()
+D. None of the above
+
+21) Which class is used in Laravel to handle exceptions?
+A. App\Exceptions\Handler (Correct)
+B. App\Exception\Handler
+C. App\Exceptions\Handle
+D. None of the above
+
+22) Which method is used in Laravel to method to check request is ajax or not?
+A. $request->ajaxRun()
+B. $request->ajaxs()
+C. $request->ajax() (Correct)
+D. None of the above
+
+23) Laravel is written in __ language.
+A. PHP (Correct)
+B. JSP
+C. ASP
+D. All are Correct
+
+24) Query scope is a feature of Laravel where we can ____.
+A. reuse similar queries (Correct)
+B. routes queries
+C. seed queries
+D. None of the above
+
+25) In which directory controllers are kept in Laravel?
+A. app/http/Controllers (Correct)
+B. app/http/Views
+C. app/http/Model
+D. app/http/routes
+
+26) How to get current environment in Laravel?
+A. $environment = App::environment(); (Correct)
+B. $environment = App::environ();
+C. $environment = App::environments();
+D. None of the above
+
+27) In Laravel, @yield used for?
+A. to extend an layout
+B. to include a file
+C. to display the contents of a given section (Correct)
+D. None of the above
+
+28) After running "artisan down", The project will show the maintenance page. What would be HTTP Status return Code?
+A. 503 (Correct)
+B. 400
+C. 501
+D. None
+
+29) Which directory contains “robot.txt” file ?
+A. public (Correct)
+B. route
+C. view
+D. All are Correct
+
+30) How to get current route name?
+A. request()->route->getName()
+B. request()->getName()
+C. request()->route()->getName() (Correct)
+
+31) What is the minimum PHP version required to install Laravel 5.3?
+A. 5.6.4 (Correct)
+B. 5.4.3
+C. 5.4.1
+D. None of the above
+
+32) How to get current action name in Laravel?
+A. request()->getActionMethod()
+B. request()->route()->getActionMethod() (Correct)
+C. request()->DB->getActionMethod()
+D. None of the above
+
+33) What is the latest version of Laravel?er 2020.
+A. 8.0, released on 8th September (Correct)
+B. 7.0, released on 8th September
+C. 6.0, released on 8th September
+D. None of the above
+
+34) When was Laravel first released?
+A. June 2011 (Correct)
+B. June 2009
+C. June 2007
+D. All are Correct
+
+35) What does ORM stands for in laravel?
+A. Object-Rotational Mechanisim
+B. Overloaded-relational Mapping
+C. Object-relational Mapping (Correct)
+D. Object-related Modifier
+
+36) How to check current laravel version install your system?
+A. php artisan check --version
+B. php artisan make --version
+C. php artisan --version (Correct)
+D. None of the above
+
+37) Controller is create in laravel by using ____ command.
+A. php artisan make:controller --plain (Correct)
+B. php artisan make:request controller_name create
+C. php artisan make: generate controller contoller_name
+D. php artisan make:controller generate
+
+38) How to set a session data in Laravel?
+A. $request->session()->put('key', 'value'); (Correct)
+B. $request->session()->set('key', 'value');
+C. $request->db->session('key', 'value');
+D. None of These
+
+39) Interpolation of variable in laravel is done using ___.
+A. {{}} (Correct)
+B. compact
+C. helpers
+D. None of the above
+
+40) Which of the following methods are used in Database Migrations classes?
+A. execute() and rollback()
+B. save() and update()
+C. up() and down() (Correct)
+D. run() and delete()
+
+41) Which of the following is a root directory in laravel
+A. public (Correct)
+B. app
+C. bootstrap
+D. vendor
+
+Laravel Online Test Questions (Laravel FAQs)
+1) How to initialize laravel collection?
+A collection in Laravel Framework can be created from an array using the collect() helper method or by instantiating the Illuminate\Support\Collection class.
+
+Below is an example to  intialize Collection in Laravel
+
+$collection = collect(['abc', 'Xyz', 'laravel']);
+
+https://www.onlineinterviewquestions.com/laravel-mcq-multiple-choice-questions/
+1. Which method returns the average value of a given key ?
+average()
+avg() (Correct)
+median()
+avg_val()
+
+avg() method in laravel returns the average value of a given key
+$average = collect([['foo' => 10], ['foo' => 10], ['foo' => 20], ['foo' => 40]])->avg('foo');  // 20
+$average = collect([1, 1, 2, 4])->avg(); // 2
+
+2. Bootstrap directory in Laravel is used to
+Initialize a Laraval application (Correct)
+Call laravel library functions
+Load the configuration files
+Load laravel classes and models
+
+Bootstrap directory is used to initialize a Laraval application
+This directory contains the app.php file which is responsible for bootstrapping the framework.
+
+3. Which artisan command is used to remove the compiled class file.
+clear-compiled (Correct)
+clear compiled
+compiled:clear
+clear:all
+
+View Answer
+	clear-compiled
+	Syntax:
+		php artisan clear-compiled
+
+4. Which method breaks the collection into multiple, smaller collections of a given size
+split()
+chunk()
+explode()
+break()
+
+View Answer
+	chunk() method in Laravel is used to breaks the collection into multiple, smaller collections of a given size.
+
+syntax:
+	$collection = collect([1, 2, 3, 4, 5, 6, 7]);
+	$chunks = $collection->chunk(4);
+	$chunks->toArray();
+	// [[1, 2, 3, 4], [5, 6, 7]]
+
+5. Artisan command to flush the application cache:
+cache:flush 
+cache:clear (Correct)
+cache:forget
+cache:remove
+
+9. Which of following command is used to create a symbolic link from "public/storage" directory to "storage/app/public".
+storage:link
+link:public
+link:storage
+storage:link public/storage
+
+View Answer
+	storage:link is used to create a symbolic link from "public/storage" directory to "storage/app/public".
+
+15. __() in laravel used for
+Printing value
+For string translation
+
+View Answer
+	For string translation
+
+
+
+
 

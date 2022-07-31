@@ -146,8 +146,10 @@
 4. Objective Type Question: 
 	[Laravel-ObjectiveTypeQuestions, PHP-ObjectiveTypeQuestions, jQuery-ObjectiveTypeQuestions
 	Mysql-ObjectiveTypeQuestions and etc...]
-	https://www.interviewmocks.com/laravel-mcq-multiple-choice-questions/
-	https://www.onlineinterviewquestions.com/laravel-mcq-multiple-choice-questions/
+
+	// https://www.interviewmocks.com/laravel-mcq-multiple-choice-questions/
+	// https://www.onlineinterviewquestions.com/laravel-mcq-multiple-choice-questions/
+
 	https://mcqpoint.com/mcq/laravel/
 	https://www.objectivequiz.com/objective-questions/programming-technologies/laravel
 	https://www.courseya.com/laravel-mcq-multiple-choice-questions/
@@ -165,9 +167,12 @@
 	https://www.sanfoundry.com/php-questions-answers-advanced-object-oriented-php/
 
 5. Pending Topics From the List: 27 - 12 = 15
-	Caching-5
+	// Caching-5
+		Memcached or Redis
+
 	Collections-3
 		Laravel Collections Guide
+
 	File Storage-3
 
 	Helper Methods-5
@@ -187,6 +192,8 @@
 		https://www.youtube.com/watch?v=rNOGLLPXzwc
 
 6. Design Patterns In Laravel and PHP
+	https://codesource.io/brief-overview-of-design-pattern-used-in-laravel/
+	https://laracasts.com/discuss/channels/laravel/what-design-patterns-used-for-laravel-framework
 
 
 
