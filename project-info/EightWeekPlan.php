@@ -10,4 +10,26 @@
 
 5. PHP Version
 
+seek@12365
+
+I am Php Laravel Developer, having 7 years of experience
+Tech stack are Php, Laravel, Yii2, Mysql, AWS, JavaScript
+
+Name: Girish kumar A
+Contact No: 8892240256
+Email ID: girishkumar.aorg@gmail.com
+Current company: Altran Technologies
+Current Location: Bangalore
+Preferred location: Bangalore / Remote
+Total and Relevant exp: 7 Years (Php, Laravel, Yii2, Mysql)
+Current CTC: 7L
+Expected CTC: 14L 
+Notice period: Currently Serving Notice Period(September/20th last working day)
+Marital status: Married
+
+
+
+
+
+
 

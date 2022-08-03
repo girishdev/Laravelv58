@@ -177,4 +177,6 @@ Route::resource('customers', 'CustomersController');
 // Route::resource('customers', 'CustomersController')->middleware('auth');
 
 
+Route::get('samplecodetesting', 'HomeController@samplecodetesting');
+
 

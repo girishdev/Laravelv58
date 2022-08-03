@@ -152,15 +152,18 @@
 
 	https://mcqpoint.com/mcq/laravel/
 	https://www.objectivequiz.com/objective-questions/programming-technologies/laravel
+
 	https://www.courseya.com/laravel-mcq-multiple-choice-questions/
 	https://letsfindcourse.com/php-framework-mcq/laravel-mcq-questions-answers
+
 	https://www.adaface.com/blog/laravel-interview-questions/
 	https://www.freeonlinetest.in/question-and-answer/programming-skill/laravel-question-online-test
+
 	https://www.dailyrecruitment.in/laravel-mcq-questions-and-answer-pdf-download/
 	https://morioh.com/login
 	http://www.laravelinterviewquestions.com/blog/laravel-advanced-interview-questions-nda/
 	https://procoders.tech/blog/laravel-framework-interview-questions/
-
+	---------------------------------
 	https://www.allindiaexams.in/engineering/cse/php-questions-and-answers/object-oriented-php/2
 	https://www.bestinterviewquestion.com/oops-interview-questions
 	http://www.woodstitch.com/resources/php-interview-questions.php
@@ -171,7 +174,54 @@
 		Memcached or Redis
 
 	Collections-3
-		Laravel Collections Guide
+		Laravel Collections Guide => https://www.youtube.com/playlist?list=PLpzy7FIRqpGCCm3pJHtDKYHlHJclb9V9m
+			average avg | Laravel Collections => 3:40
+			max | Laravel Collections => 2:42
+			median | Laravel Collections => 1:49
+			min | Laravel Collections => 2:30
+			collapse | Laravel Collections => 2:50
+			chunk | Laravel Collections => 2:37
+			combine | Laravel Collections => 3:10
+			concat | Laravel Collections => 1:37
+			contains containsStrict | Laravel Collections => 4:49
+			count | Laravel Collections => 2:09
+			crossJoin | Laravel Collections => 5:17
+			diff diffAssoc diffKeys | Laravel Collections => 4:11
+			diffUsing diffAssocUsing diffKeysUsing | Laravel Collections => 9:31
+			tap | Laravel Collections => 2:48
+			map | Laravel Collections => 4:18
+			mapWithKeys | Laravel Collections => 4:21
+			mapInto | Laravel Collections => 3:17
+			mapSpread | Laravel Collections => 5:29
+			mapToDictionary mapToGroups | Laravel Collections => 4:43
+			where whereStrict | Laravel Collections => 4:36
+			whereBetween whereNotBetween | Laravel Collections => 3:17
+			whereIn whereInStrict | Laravel Collections => 3:14
+			whereNotIn whereNotInStrict | Laravel Collections => 3:49
+			whereInstanceOf | Laravel Collections => 1:18
+			wrap | Laravel Collections => 6:06
+			unwrap | Laravel Collections => 5:59
+			filter | Laravel Collections => 3:28
+			pluck | Laravel Collections => 7:24
+			firstWhere | Laravel Collections => 4:25
+			dd | Laravel Collections => 2:52
+			zip | Laravel Collections => 3:54
+			sort | Laravel Collections => 3:46
+			sortBy | Laravel Collections => 3:50
+			groupBy | Laravel Collections => 5:03
+			first | Laravel Collections => 3:13
+			last | Laravel Collections => 3:19
+			isEmpty isNotEmpty | Laravel Collections => 3:13
+			reverse | Laravel Collections => 2:34
+			take | Laravel Collections => 4:02
+			nth | Laravel Collections => 3:22
+			only | Laravel Collections => 4:07
+			each eachSpread | Laravel Collections => 5:31
+			dump | Laravel Collections => 2:12
+			times | Laravel Collections => 3:35
+			all toArray | Laravel Collections => 3:20
+			toJson | Laravel Collections => 2:08
+			Project Setup | Laravel Collections => 5:34
 
 	File Storage-3
 
