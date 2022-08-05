@@ -1,5 +1,6 @@
 1. OOP Concepts - Refresh All The Concepts
 	https://laraveldaily.com/advanced-laravel-20-topics-and-links-to-learn-them/
+	https://www.php.net/manual/en/language.oop5.iterations.php
 
 2. Morning Practice On Board / Paper Work:
     2.1. Artisan Console-4
@@ -143,7 +144,7 @@
 	    https://www.youtube.com/watch?v=roIwpzT8xrQ&list=PLEhEHUEU3x5pcQJHE8WBLqlHt2o3q5O-f
 	    https://www.youtube.com/watch?v=7LkYpwVPSiE&list=PLe30vg_FG4ORrveWqHjn-9C5sn5mUP815
 
-4. Objective Type Question: 
+// 4. Objective Type Question: 
 	[Laravel-ObjectiveTypeQuestions, PHP-ObjectiveTypeQuestions, jQuery-ObjectiveTypeQuestions
 	Mysql-ObjectiveTypeQuestions and etc...]
 
@@ -169,11 +170,11 @@
 	http://www.woodstitch.com/resources/php-interview-questions.php
 	https://www.sanfoundry.com/php-questions-answers-advanced-object-oriented-php/
 
-5. Pending Topics From the List: 27 - 12 = 15
+// 5. Pending Topics From the List: 27 - 12 = 15
 	// Caching-5
 		Memcached or Redis
 
-	Collections-3
+	// Collections-3
 		Laravel Collections Guide => https://www.youtube.com/playlist?list=PLpzy7FIRqpGCCm3pJHtDKYHlHJclb9V9m
 			average avg | Laravel Collections => 3:40
 			max | Laravel Collections => 2:42
@@ -223,7 +224,12 @@
 			toJson | Laravel Collections => 2:08
 			Project Setup | Laravel Collections => 5:34
 
-	File Storage-3
+		Few PHP Important Links:
+			https://www.php.net/manual/en/language.generators.overview.php
+			https://www.php.net/manual/en/language.oop5.iterations.php
+			https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield
+
+	// File Storage-3
 
 	Helper Methods-5
 	Logging-3
@@ -245,7 +251,7 @@
 	https://codesource.io/brief-overview-of-design-pattern-used-in-laravel/
 	https://laracasts.com/discuss/channels/laravel/what-design-patterns-used-for-laravel-framework
 
-
-
+Questions:
+	1. What is the Difference Between absolute path and Relative Path
 
 

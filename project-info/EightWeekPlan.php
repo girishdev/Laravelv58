@@ -1,4 +1,4 @@
-1. Google: laravel service container example
+1. Google: Laravel service container example
 
 2. Laravel Version Notes
 
@@ -11,6 +11,8 @@
 5. PHP Version
 
 seek@12365
+
+lingual - Brundha
 
 I am Php Laravel Developer, having 7 years of experience
 Tech stack are Php, Laravel, Yii2, Mysql, AWS, JavaScript
@@ -26,6 +28,12 @@ Current CTC: 7L
 Expected CTC: 14L 
 Notice period: Currently Serving Notice Period(September/20th last working day)
 Marital status: Married
+
+Question To interview:
+	1. Is this permanent role, am I permanent employee?
+	2. How old company is?
+	3. How Much Employees are working?
+	4. 
 
 
 
