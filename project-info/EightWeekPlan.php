@@ -29,11 +29,128 @@ Expected CTC: 14L
 Notice period: Currently Serving Notice Period(September/20th last working day)
 Marital status: Married
 
-Question To interview:
-	1. Is this permanent role, am I permanent employee?
-	2. How old company is?
-	3. How Much Employees are working?
-	4. 
+Topic:
+	Definition:
+
+	Examples / Scenarios / Concepts:
+
+	Sample Code:
+
+	Important Points / Key Points / In-short:
+
+	Important Links:
+
+Forge:
+	Definition:
+		Laravel Forge is a special tool that is used for deploying web applications and also configuring them. The developers of the Laravel Framework are the ones who created Laravel Forge. The benefit is that it can be conveniently used to automate the deployment of any of the web applications that use any PHP Server.
+
+	Examples / Scenarios / Concepts:
+
+	Sample Code:
+
+	Important Points / Key Points / In-short:
+
+	Important Links:
+
+Contracts:
+	Definition:
+		Laravel's "contracts" are a set of interfaces that define the core services provided by the framework.
+
+	Examples / Scenarios / Concepts:
+		For example:
+			An Illuminate\Contracts\Queue\Queue contract defines the methods needed for queueing jobs, while the Illuminate\Contracts\Mail\Mailer contract defines the methods needed for sending e-mail.
+
+	Sample Code:
+
+	Important Points / Key Points / In-short:
+
+Facades:
+	Definition:
+		Laravel's facades and helper functions provide a simple way of utilizing Laravel's services without needing to type-hint and resolve contracts out of the service container.
+
+	Examples / Scenarios / Concepts:
+
+	Sample Code:
+
+	Important Points / Key Points / In-short:
+
+Collections:
+	Definition:
+		The Illuminate\Support\Collection class provides a fluent, convenient wrapper for working with arrays of data.
+	
+	Examples:
+		Example-1, Example-2 and etc...
+		Concepts Or Scenarios
+
+	Sample Code:
+
+	Important Points / Key Points / In-short:
+
+Interview-Tech-InShort:
+	Laravel:
+		1. Laravel Service Container / Service Providers / Facades
+		2. Laravel Even and Listener
+		3. Laravel Queue and Jobs
+		4. Laravel Middleware
+
+		5. Laravel Sending Notification and Mail
+		6. Laravel Policy
+
+		7. Laravel Artisan
+		8. Laravel Eloquent Model(All Relationships)
+			One To One
+			One To Many
+			Many To Many
+			Has One Through(ಮೂಲಕ)
+			Has Many Through(ಮೂಲಕ)
+
+			One To One (Polymorphic)(ಬಹುರೂಪಿ)
+			One To Many (Polymorphic)(ಬಹುರೂಪಿ)
+			Many To Many (Polymorphic)(ಬಹುರೂಪಿ)
+
+		9. Laravel DB Query(With All Relationships)
+
+		10. Laravel API's(Passport, Auth, JWT and etc...)
+		11. Laravel Testing TDD
+
+		12. Laravel Ecosystem(Forge, Cacher, and etc...)
+		13. Laravel VueJs (QandA with Some Sample Laravel Project{just an CRUD})
+
+		14. Laravel Package Development
+
+	PHP:
+		OOPs
+
+	API's
+		API Responses
+
+	MYSQL:
+		Triggers
+		View
+		Complex Quires / Joins
+
+	Docker:
+
+	Question:
+		1. Learn Apache and NGINX
+
+		2. Difference between Apache and Nginx
+			Single threaded Or Multi threaded?
+
+		3. Specific Product Description worked on Edit-place and Mercedes(Be Specific On Product Describing)
+
+		4. Data Structure and Algorithm
+
+		5. Difference between URI and URL
+
+		6. Concepts of Normal Documentation and Short Documentation
+
+		7. what is CI/CD Pipline   
+
+		8. How to use the load balancer?
+
+		9. What is the Difference Between absolute path and Relative Path
+
 
 
 

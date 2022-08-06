@@ -154,8 +154,8 @@
 	https://mcqpoint.com/mcq/laravel/
 	https://www.objectivequiz.com/objective-questions/programming-technologies/laravel
 
-	https://www.courseya.com/laravel-mcq-multiple-choice-questions/
-	https://letsfindcourse.com/php-framework-mcq/laravel-mcq-questions-answers
+	// https://www.courseya.com/laravel-mcq-multiple-choice-questions/
+	// https://letsfindcourse.com/php-framework-mcq/laravel-mcq-questions-answers
 
 	https://www.adaface.com/blog/laravel-interview-questions/
 	https://www.freeonlinetest.in/question-and-answer/programming-skill/laravel-question-online-test
@@ -173,7 +173,7 @@
 // 5. Pending Topics From the List: 27 - 12 = 15
 	// Caching-5
 		Memcached or Redis
-
+	
 	// Collections-3
 		Laravel Collections Guide => https://www.youtube.com/playlist?list=PLpzy7FIRqpGCCm3pJHtDKYHlHJclb9V9m
 			average avg | Laravel Collections => 3:40
@@ -250,8 +250,5 @@
 6. Design Patterns In Laravel and PHP
 	https://codesource.io/brief-overview-of-design-pattern-used-in-laravel/
 	https://laracasts.com/discuss/channels/laravel/what-design-patterns-used-for-laravel-framework
-
-Questions:
-	1. What is the Difference Between absolute path and Relative Path
 
 

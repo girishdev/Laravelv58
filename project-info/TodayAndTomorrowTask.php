@@ -418,7 +418,7 @@ Next Week Plan:
         // LaravelVersion7.0.docx
         // LaravelVersion8.0.docx
         // LaravelVersion9.0.docx
-
+        
     3. PhpStorm:
         https://www.youtube.com/watch?v=EwL_1wbg-rQ
         https://www.youtube.com/watch?v=p034GB87hFA
@@ -514,7 +514,7 @@ Next Week Plan:
             https://www.flowkl.com/tutorial/web-development/view-in-laravel-5/
 
     5. Laravel API Development
-
+    
     6. Testing TDD and its QandA, Commands
 
     7. Laravel All Its Packages and its Usage

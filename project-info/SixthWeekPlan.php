@@ -1,6 +1,6 @@
 Cover PHP Advance Topics:
     // PHP OOP's:
-
+    
     // Laravel Relations:
 
     // Laravel Version Notes:

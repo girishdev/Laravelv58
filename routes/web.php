@@ -11,6 +11,9 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 /*
 // Step-1
 app()->bind('Games 2', function () {
@@ -52,7 +55,7 @@ dd(app()); /**/
 
 // Step-4:
 /*
-use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
 
 // This bind method will call two times here / On each request
 app()->bind('random', function () {
@@ -81,7 +84,9 @@ cache()->set('name', 'Girish');
 dump(cache()->get('name'));
 
 // Calling as a static method
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
+
 Cache::set('name', 'kumar');
 dd(Cache::get('name')); /**/
 
