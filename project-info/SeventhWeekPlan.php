@@ -151,8 +151,8 @@
 	// https://www.interviewmocks.com/laravel-mcq-multiple-choice-questions/
 	// https://www.onlineinterviewquestions.com/laravel-mcq-multiple-choice-questions/
 
-	https://mcqpoint.com/mcq/laravel/
-	https://www.objectivequiz.com/objective-questions/programming-technologies/laravel
+	// https://mcqpoint.com/mcq/laravel/
+	// https://www.objectivequiz.com/objective-questions/programming-technologies/laravel
 
 	// https://www.courseya.com/laravel-mcq-multiple-choice-questions/
 	// https://letsfindcourse.com/php-framework-mcq/laravel-mcq-questions-answers
