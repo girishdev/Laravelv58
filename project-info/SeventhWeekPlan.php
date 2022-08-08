@@ -157,13 +157,14 @@
 	// https://www.courseya.com/laravel-mcq-multiple-choice-questions/
 	// https://letsfindcourse.com/php-framework-mcq/laravel-mcq-questions-answers
 
-	https://www.adaface.com/blog/laravel-interview-questions/
-	https://www.freeonlinetest.in/question-and-answer/programming-skill/laravel-question-online-test
+	// https://www.adaface.com/blog/laravel-interview-questions/
+	// https://www.freeonlinetest.in/question-and-answer/programming-skill/laravel-question-online-test
 
-	https://www.dailyrecruitment.in/laravel-mcq-questions-and-answer-pdf-download/
-	https://morioh.com/login
-	http://www.laravelinterviewquestions.com/blog/laravel-advanced-interview-questions-nda/
-	https://procoders.tech/blog/laravel-framework-interview-questions/
+	// https://www.dailyrecruitment.in/laravel-mcq-questions-and-answer-pdf-download/
+	// http://www.laravelinterviewquestions.com/blog/laravel-advanced-interview-questions-nda/
+	// https://procoders.tech/blog/laravel-framework-interview-questions/
+
+	https://morioh.com/login => We need to Register for this
 	---------------------------------
 	https://www.allindiaexams.in/engineering/cse/php-questions-and-answers/object-oriented-php/2
 	https://www.bestinterviewquestion.com/oops-interview-questions
@@ -251,4 +252,12 @@
 	https://codesource.io/brief-overview-of-design-pattern-used-in-laravel/
 	https://laracasts.com/discuss/channels/laravel/what-design-patterns-used-for-laravel-framework
 
+Laravel 6 Advanced
+Link: https://www.youtube.com/playlist?list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO
 
+Service Container
+View Composers
+Polymorphic Relationships
+.....
+Soft Deletes
+Notifications

@@ -151,7 +151,45 @@ Interview-Tech-InShort:
 
 		9. What is the Difference Between absolute path and Relative Path
 
+	Question Based On Topics:
+		Laravel
+			Later versions of Laravel and its imports
+			Advanced Concepts
+			tinker usage
+			Laravel packages
+			Laravel unit testing
 
+		Mysql
+			Tricky Mysql Queries
+			Advanced Concepts
+			Database User creation and giving privileges
+			Mysql is multithreaded Or single threated
+			Mysql I need to copy full table as a backup(commend line, and ....)
+
+		Php
+			Php unit testing
+			php is multithreaded Or single threated
+			Php OOP Questions-abstraction,class and Interface  difference, 
+
+		Yii2
+			1.What is the difference Between Basic and Advanced project templates in Yii:
+			2.What is the difference between Yii2 and Laravel
+			3.Core Components Differences
+				tinker/Gii
+
+		AWS: One Hosting setup:
+			AWS Or GCloud
+
+		JavaScript
+			JavaScript is multithreaded Or single threated
+
+		Apache
+			Apache is multithreaded Or single threated
+
+		Interviewer Questions and Concerns:
+		   1. Project outcome, say for Eg: Google, Facebook
+
+		   2. Record the interview call
 
 
 
