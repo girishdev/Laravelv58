@@ -232,9 +232,9 @@
 
 	// File Storage-3
 
-	Helper Methods-5
-	Logging-3
-	Notifications-9
+	// Helper Methods-5 ....
+	// Notifications-9 ..... => 5 Will Be Completed (7 Topics Need To Start)
+	Logging-3 (and Error Handling)
 
 	PHP-3
 	Package Development-6
@@ -253,11 +253,11 @@
 	https://laracasts.com/discuss/channels/laravel/what-design-patterns-used-for-laravel-framework
 
 Laravel 6 Advanced
-Link: https://www.youtube.com/playlist?list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO
+	Link: https://www.youtube.com/playlist?list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO
 
-Service Container
-View Composers
-Polymorphic Relationships
-.....
-Soft Deletes
-Notifications
+	Service Container
+	View Composers
+	Polymorphic Relationships
+	.....
+	Soft Deletes
+	Notifications

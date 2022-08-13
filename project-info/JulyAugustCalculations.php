@@ -1,8 +1,11 @@
-What is your expected salary for this position? (USD)*
-$ 25066
+What is your expected salary for this position? (USD)* 
+=> 19,94,323(20,00,000) -> $25066
+=> 18,00,00 -> $2262
+=> 14,00,00 -> $1759
 
-In Indian Rupee
-20,00,000
+https://www.linkedin.com/in/girishkumara/
+
+https://github.com/girishdev
 
 --------------------
 Pending Amount Calculation On 27-July-2022:

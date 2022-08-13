@@ -1,6 +1,6 @@
 Cover PHP Advance Topics:
     // PHP OOP's:
-    
+
     // Laravel Relations:
 
     // Laravel Version Notes:
@@ -41,9 +41,6 @@ Cover PHP Advance Topics:
             From 21th/August TO 30th/August: (Increase CTC Bases On Market Demand)
             => Expected CTC is 20 Lakhs (I am excepting around)
 
-    PHP closure function:
-        PHP closure vs callable
-
     Testing TDD & QandA, All its Commands
 
     Laravel API Development
@@ -68,17 +65,9 @@ Cover PHP Advance Topics:
         // Telescope
         Valet
 
-    Laravel how to use Redis
-
     Release Notes: (from this figure out the things changed - Upgrade Guide)
         For Eg:-
             How to update/upgrade from Laravel 5.7 to 5.8
             How to update/upgrade from Laravel 7 to 8
 
         Link: https://laravel.com/docs/5.8/releases
-
-    How can we do Migration(Adding Extra Filed) when we pushed to production Server
-
-Question:
-    What is Reflection and how it is working?
-    https://www.educba.com/php-reflection/
