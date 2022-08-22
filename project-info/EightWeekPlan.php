@@ -11,7 +11,6 @@
 5. PHP Version
 
 seek@12365
-
 lingual - Brundha
 
 I am Php Laravel Developer, having 7 years of experience

@@ -65,33 +65,40 @@
 
 	// Logging-3 (and Error Handling) ...
 		Laravel Error Handling:
-			https://www.youtube.com/watch?v=E7bca2dqaZc
-			https://www.youtube.com/watch?v=RTTXZVIL6tw
+			// https://www.youtube.com/watch?v=E7bca2dqaZc
+				Try catch, Exception, 404 Page, firstOrFail()
+			// https://www.youtube.com/watch?v=RTTXZVIL6tw
+				php artisan make:exception UserNotFoundException
 			https://www.youtube.com/watch?v=NyPsSNrfYCo
 			https://www.youtube.com/watch?v=Dd3jnoV-zOc
 			https://www.youtube.com/watch?v=Q3JEfCQBM5s
 
 		Logging:
-			https://www.youtube.com/watch?v=GOmiWKpwFSo
+			// https://www.youtube.com/watch?v=GOmiWKpwFSo
+			// https://www.youtube.com/watch?v=HKM_TAi7DLQ
 			https://www.youtube.com/watch?v=5VtU-HK9PCw
-			https://www.youtube.com/watch?v=HKM_TAi7DLQ
 			https://www.youtube.com/watch?v=XWFXikdTFcw
 
 	6-Topic Is Pending:
-	PHP-3
-	Package Development-6
-	Security-5
+		// Sessions-6
+		PHP-3
+			// OOP's
+			PHP Versions: 7.0, 7.1, 7.2, 7.3, 7.4 ...
 
-	Sessions-6
-	Testing-8
-		Test Driven Laravel
+		Package Development-6
+		Security-5
 
-	Websockets-5
-		https://www.youtube.com/watch?v=pIGy7-7gGXI
-		https://www.youtube.com/watch?v=mDnsC-sfG7I&t=2s
-		https://www.youtube.com/watch?v=rNOGLLPXzwc
+		Testing-8
+			Test Driven Laravel
+		Websockets-5
+			https://www.youtube.com/watch?v=pIGy7-7gGXI
+			https://www.youtube.com/watch?v=mDnsC-sfG7I&t=2s
+			https://www.youtube.com/watch?v=rNOGLLPXzwc
 
-2. Morning Practice On Board / Paper Work [SeventhWeekPlan.php]
+	Very Important Links:
+		https://codeanddeploy.com/category/jquery
+
+2. Morning Practice On Board / Paper Work [SeventhWeekPlan.php] => 4-NewJobsByMay/PaperWork
     2.1. Artisan Console-4
 		Caching-5
 		Collections-3
@@ -111,7 +118,7 @@
 		Validation-5
 		Views-3
 
-        Project Bases Commends:-
+        Project Based Commands In Laravel:-
 	        Laravel Normal Project Commands - (To Build Project Based Commands)
 	        Laravel Databases Migration and "Available Column Types"
 
@@ -141,7 +148,7 @@
 
     2.5. PhpStorm Commands
 
-3. Design Patterns In Laravel and PHP [SeventhWeekPlan.php]
+// 3. Design Patterns In Laravel and PHP [SeventhWeekPlan.php]
 	https://codesource.io/brief-overview-of-design-pattern-used-in-laravel/
 	https://laracasts.com/discuss/channels/laravel/what-design-patterns-used-for-laravel-framework
 
@@ -404,3 +411,48 @@
 		New In Laravel 7 - e07 - Query Casts => 12:14
 
 		New In Laravel 7 - e08 - Mail Markdown Templates => 4:28
+
+=================================
+
+1. Time Table (Certification): Keep In Mind there no time - InShort Time Only We need to make more work(Glancing the topic and moving forward)
+	4.15 - 5.15 -> 1 hr => Design Patterns In Laravel and PHP
+	5.30 - 6.30 -> 1 hr => Laravel 6 Advanced
+	6.30 - 7.00 (B)
+	7.00 - 8.00 -> 1 hr => Pending Topics From the List
+
+	8.00 - 9.00 -> Bath/Fresh-Up
+	9.00 - 2.00 -> Office Work (5 hr)
+
+	2.30 - 6.30 -> 4 hr => Plan For Writing - "Paper Work"
+
+	7.30 - 8.00 -> (Free hr) / If Any Tutorial Videos / Association Work
+
+2. Talk to Paznaval
+
+3. Interview Question and Answers: (Also Refer - MyQuestionsAndInterviewQuestions And InterviewQuestions On GDrive)
+	1. What makes PHP Much more faster
+	2. Defer and Sync Key work In JavaScript
+	3. Query Optimization Mechanism in MySQL
+	4. How You are Using Load Balancer
+	5. Send a Mail with Symfony components
+	6. Send a mail with Php from Localhost
+	7. Yii2 Question and Answers
+	8. JavaScript Question and Answers
+
+------------------------
+
+1. Package
+2. 1-Month - Other Company Certificate
+3. Position
+	Team Leader Or Architect Or Senior Software Developer
+4. Laravel To Yii2 => Python
+5. While Joining To Daimler Truck Is there any Interview Process?
+6. 
+------------------------
+
+1. Laravel Certification (Top Priority)
+2. Office Work
+3. Interview
+4. Talking Paznavel
+5. Association Maintenance
+

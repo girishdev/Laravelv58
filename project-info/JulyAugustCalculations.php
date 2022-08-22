@@ -10,10 +10,10 @@ https://github.com/girishdev
 --------------------
 Pending Amount Calculation On 27-July-2022:
 	Including August month EMI's
-
+	
 	5th TV Purchase
 		1,300*x = 20,000(Current Balance) => 1,300
-
+		
 	20th Ujjivan Bank Amma-1Y-6M
 		6*3,747 = 22,482(Current Balance) => 3,747
 	------------------------
@@ -56,21 +56,22 @@ Pending Amount Calculation On 27-July-2022:
 ================================
 Monthly Spendings:
 	1st => 10,851
-
+	
 	2nd => 4,400
 
 	5th => 5,471 + 10,376 + 23,642 + 3,551 + 1,765 + 3,746 + 8,548 + 1,300 = 58,399
 
-	10th / 20th => 3,747 + 9,000 = 12,747
+	10th / 20th => 3,747 + 2,500 + 9,000 = 12,747
 
-	Cc Payment => 1,200 + 1,529 + 250 + 1,050 + 300 + 1,500 + 3,000 + 2,500 + 1,300 = 12,629
-
-	Total Monthly Spend = 10,851 + 4,400 + 58,399 + 12,747 + 12,629 = 99,026
-
+	Cc Payment => 15,000 (Approximately)
+	------------------------------------------------------------
+	Total Monthly Spend = 10,851 + 4,400 + 58,399 + 12,747 + 15,000 = 1,03,897
+	------------------------------------------------------------
+	
 	Plus It Might Add:
-		10th / 20th => 2,500 + 2,500 + 2,000 = 7,000
-
-	All In Total Monthly Spend = 7,000 + 99,026 = 1,06,026
+		10th / 20th => 2,500 + 2,000 = 4,500
+	------------------------------------------------------------
+	All In Total Monthly Spend = 103897+4500 = 1,08,397 (Savings May Vary 1k to 2k)
 
 Yearly Package Should Be:
 	================================
