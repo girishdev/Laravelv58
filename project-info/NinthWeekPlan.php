@@ -81,13 +81,13 @@
 
 	6-Topic Is Pending:
 		// Sessions-6
-		PHP-3
+		// PHP-3
 			// OOP's
-			PHP Versions: 7.0, 7.1, 7.2, 7.3, 7.4 ...
+			// PHP Versions: 7.0, 7.1, 7.2, 7.3, 7.4
+
+		Security-5 ...
 
 		Package Development-6
-		Security-5
-
 		Testing-8
 			Test Driven Laravel
 		Websockets-5
@@ -336,9 +336,7 @@
 
 		5. Difference between URI and URL
 
-		6. Concepts of Normal Documentation and Short Documentation
-
-		7. what is CI/CD Pipline   
+		7. what is CI/CD Pipline
 
 		8. How to use the load balancer?
 
@@ -429,30 +427,186 @@
 
 2. Talk to Paznaval
 
+boioquest
+
 3. Interview Question and Answers: (Also Refer - MyQuestionsAndInterviewQuestions And InterviewQuestions On GDrive)
+	How to Convert Php Variable/Value to Javascrip / Jquery Variable
+
 	1. What makes PHP Much more faster
-	2. Defer and Sync Key work In JavaScript
+
+	// 2. Defer and Async Key work In JavaScript
+		Defer Keyword In JavaScript
+		Async Keyword In JavaScript
+
+		https://www.youtube.com/watch?v=IrHmpdORLu8
+
 	3. Query Optimization Mechanism in MySQL
+
 	4. How You are Using Load Balancer
+
 	5. Send a Mail with Symfony components
+
 	6. Send a mail with Php from Localhost
+
 	7. Yii2 Question and Answers
+
 	8. JavaScript Question and Answers
 
-------------------------
+	9. Questions:
+		firstorfail vs findorfail
+		https://stackoverflow.com/questions/33027047/what-is-the-difference-between-find-findorfail-first-firstorfail-get
+		https://devnote.in/what-is-the-difference-between-find-findorfail-first-firstorfail-get-list-toarray/
 
-1. Package
-2. 1-Month - Other Company Certificate
-3. Position
+	10. Idempotent - POST and PATCH
+		Idempotent is where you call the same function with the same value and the result is exactly the same, that is the mathematically definition. If you ever update state then you are not idempotent, that its 'a database update' doesn't change anything.
+
+	11. Design patterns in php
+		https://refactoring.guru/design-patterns/php
+	12. What PHP Standards are you using?
+	13. JWT Token (what are the part it includes)
+	14. Abstract Class / Concrete Class
+		Class abstraction is a way for a class to force any other class that extends it to implement specific methods. The parent class is called an abstract class, the child class we will call a concrete class, and the methods a concrete class must implement are called abstract methods.
+	15. Concurrency(ಏಕಕಾಲಿಕತೆ) Issues while booking red bus ticket
+	// 16. Type Of Indexing
+	// 17. Does Subqueries Support Order by and Group By
+
+------------------------
+1. Package (So this is a direct payroll right)
+2. Position
 	Team Leader Or Architect Or Senior Software Developer
-4. Laravel To Yii2 => Python
-5. While Joining To Daimler Truck Is there any Interview Process?
-6. 
-------------------------
 
+3. 1-Month - Other Company Certificate => Is there any Impact On My Profile?
+
+4. While Joining To Daimler Truck Is there any Interview Process?
+
+5. My Resume with you right?
+	If now I will send to your(Pazhanivel) Email Address
+
+6. I am also Studied "Electronics" In Bsc
+	Electronics Microprocessor
+	Electronics Microcontroller
+
+----
+6. Laravel To Yii2 => Python
+
+------------------------
+1. Laravel Certification (Top Priority)
+2. DevOps Certification
+3. Data Scientist
+
+------------------------
 1. Laravel Certification (Top Priority)
 2. Office Work
 3. Interview
 4. Talking Paznavel
 5. Association Maintenance
+
+------------------------
+
+What's the difference between __ sleep and __ wakeup?
+	- __sleep is supposed to return an array of the names of all variables of an object that should be serialized. __wakeup in turn will be executed by unserialize if it is present in class. It's intention is to re-establish resources and other things that are needed to be initialized upon unserialization.
+
+	__sleep and __wakeup are methods that are related to the serialization process. serialize function checks if a class has a __sleep method. If so, it will be executed before any serialization. __sleep is supposed to return an array of the names of all variables of an object that should be serialized.
+
+	__wakeup in turn will be executed by unserialize if it is present in class. It's intention is to re-establish resources and other things that are needed to be initialized upon unserialization.
+
+	Link: https://riptutorial.com/php/example/4604/--sleep---and---wakeup--
+
+What is encapsulation in OOP PHP?
+	- So the OOPs concept of Encapsulation in PHP means, enclosing the internal details of the object to protect from external sources. It describes, combining the class, data variables and member functions that work on data together within a single unit to form an object.
+
+What is polymorphism PHP?
+	- Polymorphism is essentially an OOP pattern that enables numerous classes with different functionalities to execute or share a commonInterface. The usefulness of polymorphism is code written in different classes doesn't have any effect which class it belongs because they are used in the same way.
+
+Does PHP allow function overloading?
+	- PHP does not support method overloading. In case you've never heard of method overloading, it means that the language can pick a method based on which parameters you're using to call it. This is possible in many other programming languages like Java, C++.
+
+PHP who you overload class in php
+	- Property Overloading: PHP property overloading is used to create dynamic properties in the object context. For creating these properties no separate line of code is needed. A property associated with a class instance, and if it is not declared within the scope of the class, it is considered as overloaded property.
+
+Does Subqueries Support Order by and Group By
+	- An ORDER BY command cannot be used in a subquery, although the main query can use an ORDER BY. The GROUP BY command can be used to perform the same function as the ORDER BY in a subquery.
+
+How Laravel caching machine works?
+	- Laravel creates an encrypted file with the data and the cache key when new data is cached. The same happens when the user is trying to retrieve the content. Laravel cache searches through the folder for the specified key and, if found, returns the content.
+
+CSRF Token
+
+Task Scheduler
+
+How to Disable Time stamp In Laravel Model
+	const UPDATED_AT = null;
+		-- Or --
+	const CREATED_AT = null;
+		-- Or --
+    public $timestamps = false;
+
+How to Disable Other Database Column Instead Of fetching all In Laravel Model
+	class User extends Model
+	{
+	    /**
+	     * The attributes that should be hidden for arrays.
+	     */
+	     protected $hidden = ['password'];
+	}
+		-- Or --
+	$users = $users->makeHidden(['address', 'phone_number']);
+
+Laravel Relationship's
+
+Have You Integrated any third party APIs
+	- https://procoders.tech/blog/how-to-integrate-third-party-api/
+	- https://www.emizentech.com/blog/third-party-api-integration.html
+	- https://blog.hubspot.com/marketing/third-party-api
+	- https://tideways.com/profiler/blog/reliable-integration-with-third-party-apis-in-php
+	- https://dev.to/mguinea/how-to-integrate-an-external-api-into-your-php-application-40oh
+
+Laravel http client
+	https://laravel.com/docs/9.x/http-client
+
+Laravel How to Connect to Different Databases
+	Where to do configuration and How?
+
+array merge and array combine
+
+PHP Global Variables - Superglobals
+	- Some predefined variables in PHP are "superglobals", which means that they are always accessible, regardless of scope - and you can access them from any function, class or file without having to do anything special.
+
+	- The PHP superglobal variables are:
+		$GLOBALS
+		$_SERVER
+		$_REQUEST
+		$_POST
+		$_GET
+		$_FILES
+		$_ENV
+		$_COOKIE
+		$_SESSION
+
+Get the full URL in PHP
+	- $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+The $_REQUEST variable
+	- The PHP $_REQUEST variable contains the contents of both $_GET, $_POST, and $_COOKIE. We will discuss $_COOKIE variable when we will explain about cookies.
+
+Important links:
+	https://zetcode.com/php/getpostrequest/
+
+JWT Token: (https://jwt.io/introduction)
+	Header
+	Payload
+	Signature
+
+How can you Optimize the Page If it loading Too slow
+	- Pagination 
+	- DB Question Should be Optimize (select One required columns)
+	- Database Indexing: (https://www.tutorialspoint.com/dbms/dbms_indexing.htm)
+		There are primarily three methods of indexing: 
+			- Clustered Indexing. 
+			- Non-Clustered or Secondary Indexing. 
+			- Multilevel Indexing.
+
+		https://www.geeksforgeeks.org/indexing-in-databases-set-1/
+
+
 

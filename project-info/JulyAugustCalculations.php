@@ -13,7 +13,7 @@ Pending Amount Calculation On 27-July-2022:
 	
 	5th TV Purchase
 		1,300*x = 20,000(Current Balance) => 1,300
-		
+
 	20th Ujjivan Bank Amma-1Y-6M
 		6*3,747 = 22,482(Current Balance) => 3,747
 	------------------------
@@ -99,4 +99,9 @@ Yearly Package Should Be:
 	1.41 L - 1.7 L = 34,000(we will save)
 
 	================================
+	22,00,000/12 = 1,83,333
+	=> 1,48,333 (Deduction 35,000)
+	=> Monthly I Need: 1.7 L
+	1.48 L - 1.7 L = 41,333(we will save)
 
+	================================
