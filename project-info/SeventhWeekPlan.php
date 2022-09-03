@@ -170,7 +170,7 @@
 	https://www.bestinterviewquestion.com/oops-interview-questions
 	http://www.woodstitch.com/resources/php-interview-questions.php
 	https://www.sanfoundry.com/php-questions-answers-advanced-object-oriented-php/
-
+		
 // 5. Pending Topics From the List: 27 - 12 = 15
 	// Caching-5
 		Memcached or Redis
