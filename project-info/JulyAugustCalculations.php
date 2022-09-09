@@ -1,13 +1,13 @@
 What is your expected salary for this position? (USD)* 
-=> 19,94,323(20,00,000) -> $25066
-=> 18,00,00 -> $2262
-=> 14,00,00 -> $1759
+	=> 19,94,323(20,00,000) -> $25066
+	=> 18,00,00 -> $2262
+	=> 14,00,00 -> $1759
 
-https://www.linkedin.com/in/girishkumara/
+	https://www.linkedin.com/in/girishkumara/
 
-https://github.com/girishdev
+	https://github.com/girishdev
 
---------------------
+================================
 Pending Amount Calculation On 27-July-2022:
 	Including August month EMI's
 	
@@ -73,7 +73,8 @@ Monthly Spendings:
 	------------------------------------------------------------
 	All In Total Monthly Spend = 103897+4500 = 1,08,397 (Savings May Vary 1k to 2k)
 
-Yearly Package Should Be:
+================================
+Yearly Package Should Be: (PackageEstimation)
 	================================
 	14,00,000/12 = 1,16,666
 	=> 98,666 (Deduction 18,000)
@@ -117,3 +118,28 @@ Yearly Package Should Be:
 	1.48 L - 1.7 L = 41,333(we will save)
 
 	================================
+
+================================
+Got PayTM TopUp Loan: 1,28,481
+	1. 1,00,000 => October Months EMI's
+
+	2. 25,000(Remaning Balance from PayTM Loan) + 20,000(Salary September) = 45,000
+
+	Option-1:
+		45,000 - 22,482(Ujivan Balance) = 22,518
+		22,518(Gold Invest) + Take SBI Cc Amount (But Disadvantage is Interest Amount is more)
+
+	Option-2: (Clear Ujivan Loan)
+		3,747 * 6 = 22,482
+		60,000 - 22,482 = 37,518 (We willl get from Ujivan Bank)
+
+		37,518 + 45,000(Balance I have) = 82,518 (This is the total Amount to get Gold)
+
+	Gold Item To Purchase:
+		60,000 + 22,800 = 82,800 (Girish Chain+Amma Earrings)
+		-- Or --
+		70,000 + 33,600 = 1,03,600
+		-- Or --
+		35,000 + 21,000 = 56,000
+
+
