@@ -54,7 +54,7 @@ Pending Amount Calculation On 27-July-2022:
 	SBI Cc: 15,000(Home Expenses)
 
 ================================
-Monthly Spendings:
+Monthly Spending's:
 	1st => 10,851
 	
 	2nd => 4,400
@@ -104,6 +104,12 @@ Yearly Package Should Be: (PackageEstimation)
 	=> 1,25,000 (Deduction 25,000)
 	=> Monthly I Need: 1.7 L
 	1.25 L - 1.7 L = 18,000(we will save)
+	
+	================================
+	19,00,000/12 = 1,58,333
+	=> 1,33,333 (Deduction 25,000)
+	=> Monthly I Need: 1.7 L
+	1.33 L - 1.7 L = 26,333(we will save)
 
 	================================
 	20,00,000/12 = 1,66,666
@@ -116,8 +122,6 @@ Yearly Package Should Be: (PackageEstimation)
 	=> 1,48,333 (Deduction 35,000)
 	=> Monthly I Need: 1.7 L
 	1.48 L - 1.7 L = 41,333(we will save)
-
-	================================
 
 ================================
 Got PayTM TopUp Loan: 1,28,481
@@ -141,5 +145,151 @@ Got PayTM TopUp Loan: 1,28,481
 		70,000 + 33,600 = 1,03,600
 		-- Or --
 		35,000 + 21,000 = 56,000
+
+================================
+1. Prepare For the Interview
+	Solve Question and Answers
+
+2. Attend the Interview: (start applying on job portals)
+	1. Are they looking for Back-end Developer
+	2. Are they working on PHP, Laravel and MySQL Tech Stack
+	3. What is the Team Size
+		Start-up Or MNC Company
+	4. Are they Okay to Pay 16 To 18 LPA
+	5. Is the Direct Pay role from the company
+
+	Immediate Joiner
+
+3. Do some Important Laravel Project's: (where it has to cover major topics)
+	Laravel 5.8 - From The Ground Up
+		https://www.youtube.com/playlist?list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4
+
+	Laravel 6 Beginner
+		https://www.youtube.com/playlist?list=PLpzy7FIRqpGC8Jk6gyWdSVdxCVXZAsenQ
+
+	Laravel 6 Advanced
+		https://www.youtube.com/playlist?list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO
+
+	New in Laravel 7
+		https://www.youtube.com/playlist?list=PLpzy7FIRqpGCl26FcHazZmIUwT7zFJu7U
+
+	Arranging it in a Most Easy to Difficult Concept:
+
+	1. Laravel Validation
+		https://www.youtube.com/watch?v=Frv0X57_TXI&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=9
+		https://www.youtube.com/watch?v=pJK_IeKSElY&list=PLpzy7FIRqpGC8Jk6gyWdSVdxCVXZAsenQ&index=8
+
+	2. Laravel Middleware
+		https://www.youtube.com/watch?v=CQyNDnMhf8U&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=24&t=9s
+
+	3. Laravel Sessions / Cookies
+		https://www.youtube.com/watch?v=dFe2a5xipkY&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=20&t=1s
+
+	4. Helpers Functions (Few Important)
+		https://www.youtube.com/playlist?list=PLpzy7FIRqpGCCm3pJHtDKYHlHJclb9V9m
+
+	5. Laravel Events / Listener / Queues / Jobs
+		https://www.youtube.com/watch?v=6wZKwJQF7Is&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=29&t=14s
+		https://www.youtube.com/playlist?list=PLpzy7FIRqpGD2ijMCTCp9_EPZmFs_pOhi
+
+	6. Laravel Service Container
+		https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=2
+
+	7. Laravel Task Scheduling
+		https://www.youtube.com/watch?v=_NoWp58pHa4&t=36s
+
+	8. Laravel Notifications / Mail
+		https://www.youtube.com/watch?v=upKOwoe8LsM&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=11
+
+	9. Lazy Loading vs. Eager Loading (Fixing N + 1 Problem)
+		https://www.youtube.com/watch?v=bZlvzvGpCEE&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=43
+
+    9. Laravel Policies
+    	https://www.youtube.com/watch?v=NrlY-xeqHBg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=45&t=5s
+
+    10. Laravel Artisan
+    	- create One Artisan Command to Send a mail to the User
+    	https://www.youtube.com/watch?v=uWrecwtVarw&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=35
+
+    11. Laravel Relationship
+    	Laravel Eloquent Model(All Relationships)
+    	Laravel DB Query(With All Relationships)
+    	https://www.youtube.com/watch?v=9yeJ-93B-R4&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=45
+    	https://www.youtube.com/watch?v=3Oxfi3DLdkI&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=15
+    	https://www.youtube.com/watch?v=C7T1689IvPQ&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=4
+
+    12. Laravel Design Patterns
+    	https://drive.google.com/drive/folders/1AV2N_YvbFChsrTLk1nz9IEh8BK3R3l3l
+
+    13. Laravel Versions
+    	https://drive.google.com/drive/folders/1Qox33n1hsL1Vb1xONhSbp1kwEz2qhD5p
+
+    14 Laravel API's(Passport, Auth, JWT and etc...)
+    	https://www.youtube.com/watch?v=LhzCdEeEeQA&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=15
+    	https://www.youtube.com/watch?v=C6HNs9OlV34&list=PLpzy7FIRqpGC8Jk6gyWdSVdxCVXZAsenQ&index=10
+
+    15. Laravel Ecosystem(Forge, Cacher, and etc...)
+    	- Integration On Other Packages (Stripe, Passport, Telescope)
+
+    ------------------------
+
+    17. Laravel Testing TDD (Unit Testing)
+    	https://www.youtube.com/watch?v=RJ_iXzdSpT0&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=50
+    	https://www.youtube.com/playlist?list=PLpzy7FIRqpGAbkfdxo1MwOS9xjG3O3z1y
+
+    18. Laravel VueJs (QandA with Some Sample Laravel Project{just an CRUD})
+    	https://www.youtube.com/watch?v=BoYQpwvKLuE&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=27
+
+    19. Laravel Package Development
+    	https://www.youtube.com/playlist?list=PLpzy7FIRqpGBQ_aqz_hXDBch1aAA-lmgu
+
+	-----------------------------
+	Integrating with Google Third Party API's
+	Creating Laravel API's
+
+4. List Out the Existing Projects and Its Features:
+	Ready Project:
+		Laravelv58
+			Existing Features: (We can add all Existing features)
+			+ Contact Us (Sending Message)
+			+ Customer List
+				Add New Customer (CRUD)
+				Add Profile Image
+			+ Pagination
+			+ Question and Answers (CRUD)
+			+ Login System
+
+			We Can Implement Extra:
+
+
+	Need to Do:
+		laravel-jwt
+		laravel-passport
+		laravel-stripe
+		Excel Sheet Export / Import
+		PDF Download
+
+5. Start Transaction On Git as well
+	Pushing Code, Pulling Code
+
+	Laravel:
+		Laravel Daily
+		https://www.youtube.com/c/LaravelDaily/playlists
+
+		Laratips
+		https://www.youtube.com/c/Laratips/playlists
+
+		Coder's Tape
+		https://www.youtube.com/c/CodersTape/playlists
+
+		Andre Madarang
+		https://www.youtube.com/c/drehimself/playlists
+
+		Bitfumes
+		https://www.youtube.com/c/Bitfumes/playlists
+
+	Mysql:
+		techTFQ
+		https://www.youtube.com/c/techTFQ/playlists
 
 

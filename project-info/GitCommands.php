@@ -14,7 +14,7 @@ git commit -m "Taken DB Bkp and Other code"
 git commit -m "Added OOP Concepts into git"
 git commit -m "Added Topics Covered In Laravel Certification"
 git push origin main
-git push main
+git push
 
 Git Token: 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
 

@@ -400,7 +400,7 @@ Queues-5: => Done
 		- If you would like to conditionally dispatch a job, you may use the dispatchIf and dispatchUnless methods:
 
 		ProcessPodcast::dispatchIf($accountActive, $podcast);
-		 
+		
 		ProcessPodcast::dispatchUnless($accountSuspended, $podcast);
 
         ProcessPodcast::dispatch($podcast)
