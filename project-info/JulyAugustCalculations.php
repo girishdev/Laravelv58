@@ -173,6 +173,12 @@ Got PayTM TopUp Loan: 1,28,481
 	New in Laravel 7
 		https://www.youtube.com/playlist?list=PLpzy7FIRqpGCl26FcHazZmIUwT7zFJu7U
 
+	Php/Laravel Tips and Tricks
+		https://www.youtube.com/playlist?list=PL2DahmvUpeuuN7zOlvNeo9P-VrlTpv356
+
+	Laravel Advanced
+		https://www.youtube.com/playlist?list=PL2DahmvUpeuv2VgLKcR20-jwSFdugNBzG
+
 	Arranging it in a Most Easy to Difficult Concept:
 
 	1. Laravel Validation
@@ -188,47 +194,49 @@ Got PayTM TopUp Loan: 1,28,481
 	4. Helpers Functions (Few Important)
 		https://www.youtube.com/playlist?list=PLpzy7FIRqpGCCm3pJHtDKYHlHJclb9V9m
 
-	5. Laravel Events / Listener / Queues / Jobs
-		https://www.youtube.com/watch?v=6wZKwJQF7Is&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=29&t=14s
-		https://www.youtube.com/playlist?list=PLpzy7FIRqpGD2ijMCTCp9_EPZmFs_pOhi
-
-	6. Laravel Service Container
-		https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=2
-
-	7. Laravel Task Scheduling
-		https://www.youtube.com/watch?v=_NoWp58pHa4&t=36s
-
-	8. Laravel Notifications / Mail
-		https://www.youtube.com/watch?v=upKOwoe8LsM&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=11
-
-	9. Lazy Loading vs. Eager Loading (Fixing N + 1 Problem)
+	5. Lazy Loading vs. Eager Loading (Fixing N + 1 Problem)
 		https://www.youtube.com/watch?v=bZlvzvGpCEE&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=43
 
-    9. Laravel Policies
-    	https://www.youtube.com/watch?v=NrlY-xeqHBg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=45&t=5s
-
-    10. Laravel Artisan
-    	- create One Artisan Command to Send a mail to the User
-    	https://www.youtube.com/watch?v=uWrecwtVarw&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=35
-
-    11. Laravel Relationship
+    6. Laravel Relationship
     	Laravel Eloquent Model(All Relationships)
     	Laravel DB Query(With All Relationships)
     	https://www.youtube.com/watch?v=9yeJ-93B-R4&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=45
     	https://www.youtube.com/watch?v=3Oxfi3DLdkI&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=15
     	https://www.youtube.com/watch?v=C7T1689IvPQ&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=4
 
-    12. Laravel Design Patterns
+	7. Laravel Events / Listener / Queues / Jobs
+		https://www.youtube.com/watch?v=6wZKwJQF7Is&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=29&t=14s
+		https://www.youtube.com/playlist?list=PLpzy7FIRqpGD2ijMCTCp9_EPZmFs_pOhi
+
+	8. Laravel Task Scheduling
+		https://www.youtube.com/watch?v=_NoWp58pHa4&t=36s
+
+	9. Laravel Notifications / Mail
+		https://www.youtube.com/watch?v=upKOwoe8LsM&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=11
+
+	10. Laravel Service Container
+		https://www.youtube.com/watch?v=_z9nzEUgro4&list=PLpzy7FIRqpGD5pN3-Y66YDtxJCYuGumFO&index=2
+
+    11. Laravel Policies
+    	https://www.youtube.com/watch?v=NrlY-xeqHBg&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=45&t=5s
+
+    12. Laravel Artisan
+    	- create One Artisan Command to Send a mail to the User
+    	https://www.youtube.com/watch?v=uWrecwtVarw&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=35
+
+    ------------------------
+
+    13. Laravel Design Patterns
     	https://drive.google.com/drive/folders/1AV2N_YvbFChsrTLk1nz9IEh8BK3R3l3l
 
-    13. Laravel Versions
+    14. Laravel Versions
     	https://drive.google.com/drive/folders/1Qox33n1hsL1Vb1xONhSbp1kwEz2qhD5p
 
-    14 Laravel API's(Passport, Auth, JWT and etc...)
+    15. Laravel API's(Passport, Auth, JWT and etc...)
     	https://www.youtube.com/watch?v=LhzCdEeEeQA&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4&index=15
     	https://www.youtube.com/watch?v=C6HNs9OlV34&list=PLpzy7FIRqpGC8Jk6gyWdSVdxCVXZAsenQ&index=10
 
-    15. Laravel Ecosystem(Forge, Cacher, and etc...)
+    16. Laravel Ecosystem(Forge, Cacher, and etc...)
     	- Integration On Other Packages (Stripe, Passport, Telescope)
 
     ------------------------
@@ -260,7 +268,6 @@ Got PayTM TopUp Loan: 1,28,481
 			+ Login System
 
 			We Can Implement Extra:
-
 
 	Need to Do:
 		laravel-jwt
